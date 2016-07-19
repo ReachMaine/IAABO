@@ -1,0 +1,189 @@
+<html>
+
+<head><style>
+.shakeimage{
+position:relative
+}
+</style>
+<script language="JavaScript1.2">
+
+/*
+Shake image script (onMouseover)- 
+© Dynamic Drive (www.dynamicdrive.com)
+For full source code, usage terms, and 100's more DHTML scripts, visit http://dynamicdrive.com
+*/
+
+//configure shake degree (where larger # equals greater shake)
+var rector=3
+
+///////DONE EDITTING///////////
+var stopit=0 
+var a=1
+
+function init(which){
+stopit=0
+shake=which
+shake.style.left=0
+shake.style.top=0
+}
+
+function rattleimage(){
+if ((!document.all&&!document.getElementById)||stopit==1)
+return
+if (a==1){
+shake.style.top=parseInt(shake.style.top)+rector
+}
+else if (a==2){
+shake.style.left=parseInt(shake.style.left)+rector
+}
+else if (a==3){
+shake.style.top=parseInt(shake.style.top)-rector
+}
+else{
+shake.style.left=parseInt(shake.style.left)-rector
+}
+if (a<4)
+a++
+else
+a=1
+setTimeout("rattleimage()",50)
+}
+
+function stoprattle(which){
+stopit=1
+which.style.left=0
+which.style.top=0
+}
+
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Welcome to Eastern Maine Board of Approved Basketball Officials (111)
+Website!</title>
+</head>
+
+<body background="../images/bballbg.jpg" text="#643200" link="#FF0000" vlink="#643200">
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="8" width="713" height="156">
+    <tr>
+      <td valign="top" width="21" height="27" align="center">
+        <p align="center"><a href="http://www.iaabo.org">
+        <img border="0" src="../images/iaabologo.gif" alt="International Association of Approved Basketball Officials, Inc." width="115" height="118"></a></td>
+      <td valign="bottom" width="612" height="27"><font face="Arial">
+        <p align="center" class="MsoNormal" style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">
+        <img border="0" src="../images/iaabo111logo.gif" width="400" height="58"><b><O:P><span style="font-family: Arial"><font size="5">
+        </font></span></O:P>
+        </b></font></td>
+    </tr>
+    <tr>
+      <td valign="top" width="21" height="113" align="center">
+        <p align="center"><font size="3" face="Arial">
+        <a href="../meeting.htm">
+        <img border="0" src="../images/bballmeeting_wrap.gif"class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87"></a></font><p align="center"><font size="3">
+        <a href="../rules.htm">
+        <img border="0" src="../images/bballrules.gif"class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87"></a></font><p align="center"><font size="3">
+        <a href="../private/index.html">
+        <img border="0" src="../images/bballnews.gif"class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87"></a></font><p align="center"><font size="3">
+        <a href="../schools.htm">
+        <img border="0" src="../images/bballschools.gif"class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87"></a></font><p align="center"><font size="3">
+        <a href="../default.htm">
+        <img border="0" src="../images/bballhome.gif"class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87"></a></font></td>
+      <td valign="top" width="612" height="113">
+        <font face="Arial">
+        <table border="0" cellpadding="5" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber1">
+          <tr>
+            <td width="50%" bgcolor="#643200" align="center"><b>
+        <font face="Arial" color="#FFFFFF">
+            FALL CONFERENCE WRAP UP</font></b></td>
+          </tr>
+          <tr>
+            <td width="50%" bgcolor="#FFFFFF">
+            <div align="center">
+              <center>
+              <table border="0" cellpadding="5" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="370" id="AutoNumber2" bgcolor="#FBF0D7">
+                <tr>
+                  <td width="100%" height="18">
+                  <img border="1" src="../photos/fall-conference_06.jpg" width="360" height="288"></td>
+                </tr>
+                <tr>
+                  <td width="100%" height="54"><font size="2">President Charles 
+                  Pray welcomes the delegates to Bar Harbor and the 2002 Fall 
+                  IAABO Conference.</font></td>
+                </tr>
+                <tr>
+                  <td width="100%" height="18">
+        <font face="Arial" size="2">
+        <img border="1" src="../photos/fall-conference_07.jpg" width="360" height="288"></font></td>
+                </tr>
+                <tr>
+                  <td width="100%" height="34"><font size="2">Just a few of the 
+                  Maine delegation in attendance at one of the many seminars 
+                  throughout the weekend.</font></td>
+                </tr>
+                <tr>
+                  <td width="100%" height="18">
+        <font face="Arial" size="2">
+        <img border="1" src="../photos/fall-conference_08.jpg" width="360" height="288"></font></td>
+                </tr>
+                <tr>
+                  <td width="100%" height="18"><font size="2">Past President 
+                  Peter Webb introduces Ron Brown to the delegates in 
+                  attendance. </font></td>
+                </tr>
+                <tr>
+                  <td width="100%" height="18">
+        <font face="Arial" size="2">
+        <img border="1" src="../photos/fall-conference_09.jpg" width="360" height="288"></font></td>
+                </tr>
+                <tr>
+                  <td width="100%" height="54"><font size="2">Current IAABO 
+                  President Dick Mackenzie with a few thoughts for the 
+                  attendees.</font></td>
+                </tr>
+                <tr>
+                  <td width="100%" height="18">
+        <font face="Arial" size="2">
+        <img border="1" src="../photos/fall-conference_10.jpg" width="360" height="288"></font></td>
+                </tr>
+                <tr>
+        <font face="Arial">
+                  <td width="100%" height="36"><font size="2" face="Arial">Tom Lopes was one 
+                  of the many presenters to the Fall Conference.</font></td>
+            </font>
+                </tr>
+                <tr>
+                  <td width="100%" height="36" bgcolor="#FFFFFF">
+        <p align="center">
+        <font face="Arial">
+                  Enjoy more Fall Conference 2002 photos!<br>
+                  <font size="2" face="Arial"><b>
+                  &lt;click here for <a href="meeting_1.htm">p1</a>
+        <a href="meeting_2.htm">p2</a> <a href="meeting_3.htm">p3</a>&gt; </b></font>
+            </font>
+                  </td>
+                </tr>
+              </table>
+              </center>
+            </div>
+            </td>
+            </font>
+          </tr>
+          <tr>
+            <td width="50%" bgcolor="#643200" align="center"><b>
+        <font face="Arial" color="#FFFFFF">
+            FALL CONFERENCE WRAP UP</font></b></td>
+          </tr>
+          </table>
+        </font></td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>

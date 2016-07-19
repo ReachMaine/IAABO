@@ -1,0 +1,355 @@
+<html>
+
+<head><style>
+.shakeimage{
+position:relative
+}
+h3
+	{margin-bottom:.0001pt;
+	text-align:center;
+	page-break-after:avoid;
+	font-size:20.0pt;
+	font-family:"Britannic Bold";
+	font-weight:normal; margin-left:0in; margin-right:0in; margin-top:0in}
+h4
+	{margin-bottom:.0001pt;
+	text-align:center;
+	page-break-after:avoid;
+	font-size:24.0pt;
+	font-family:"Britannic Bold";
+	font-weight:normal; margin-left:0in; margin-right:0in; margin-top:0in}
+h2
+	{margin-bottom:.0001pt;
+	text-align:center;
+	page-break-after:avoid;
+	font-size:20.0pt;
+	font-family:"Britannic Bold";
+	font-weight:normal;
+	font-style:italic; margin-left:0in; margin-right:0in; margin-top:0in}
+h5
+	{margin-bottom:.0001pt;
+	page-break-after:avoid;
+	font-size:20.0pt;
+	font-family:"Britannic Bold";
+	font-weight:normal; margin-left:0in; margin-right:0in; margin-top:0in}
+</style>
+<script language="JavaScript1.2">
+
+/*
+Shake image script (onMouseover)- 
+© Dynamic Drive (www.dynamicdrive.com)
+For full source code, usage terms, and 100's more DHTML scripts, visit http://dynamicdrive.com
+*/
+
+//configure shake degree (where larger # equals greater shake)
+var rector=3
+
+///////DONE EDITTING///////////
+var stopit=0 
+var a=1
+
+function init(which){
+stopit=0
+shake=which
+shake.style.left=0
+shake.style.top=0
+}
+
+function rattleimage(){
+if ((!document.all&&!document.getElementById)||stopit==1)
+return
+if (a==1){
+shake.style.top=parseInt(shake.style.top)+rector
+}
+else if (a==2){
+shake.style.left=parseInt(shake.style.left)+rector
+}
+else if (a==3){
+shake.style.top=parseInt(shake.style.top)-rector
+}
+else{
+shake.style.left=parseInt(shake.style.left)-rector
+}
+if (a<4)
+a++
+else
+a=1
+setTimeout("rattleimage()",50)
+}
+
+function stoprattle(which){
+stopit=1
+which.style.left=0
+which.style.top=0
+}
+
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Welcome to Eastern Maine Board of Approved Basketball Officials (111)
+Website!</title>
+<script src="/__utm.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27661520-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<body background="../images/bballbg.jpg" text="#643200" link="#FF0000" vlink="#643200" style="font-family: verdana; font-size: 10pt">
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="8" width="713" height="154">
+    <tr>
+      <td valign="top" width="21" height="25" align="center">
+        <p align="center"><font face="verdana"><a href="http://www.iaabo.org">
+        <img border="0" src="../images/logo.png" alt="International Association of Approved Basketball Officials, Inc." width="115" height="118"></a></font></td>
+      <td valign="bottom" width="612" height="25"><font face="verdana">
+        <p align="center" class="MsoNormal" style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">
+        <img border="0" src="../images/iaabo111logo.gif" width="400" height="58"><b><O:P><span style="font-family: verdana"><font size="5">
+        </font></span></O:P>
+        </b></font></td>
+    </tr>
+    <tr>
+      <td valign="top" width="21" height="113" align="center">
+        <p align="center"><b>
+		<a href="../meeting/fall-conference_agenda.htm" style="text-decoration: none">
+		<font size="4" face="verdana">
+        <img border="0" src="../images/bballmeeting.gif"class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87"></font></a></b><p align="center">
+		<font size="3">
+        <a target="_blank" href="../rules.pdf">
+        <img border="0" src="../images/bballrules.gif"class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87"></a></font><p align="center">
+        <font size="3">
+        <a href="index.html">
+        <img border="0" src="../images/bballnews.gif"class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87" alt="User name &amp; password are the same."></a></font><p align="center">
+        <font size="3" face="verdana">
+        <a href="../schools.htm">
+        <img border="0" src="../images/bballschools.gif"class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87"></a></font><p align="center">
+        <font size="3" face="verdana">
+        <a href="../index.htm">
+        <img border="0" src="../images/bballhome.gif"class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87"></a></font></td>
+      <td valign="top" width="612" height="113">
+        <table border="0" cellpadding="5" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="table1" height="357">
+          <tr>
+        <font face="verdana">
+            <td width="68%" bgcolor="#643200" align="center">
+        <span style="text-transform: uppercase"><b>
+        <font face="verdana" size="4" color="#FFFFFF">Technical Foul &amp; Player 
+        Ejection Form</font></b></span></td>
+          </tr>
+          <tr>
+            <td width="68%" bgcolor="#FFFFFF">
+        <p class="MsoNormal"><font size="2">Please report any and all Technical 
+        Fouls called. 100% cooperation and response would be helpful. To report 
+        foul complete form below. </font></p>
+        <div align="center">
+          <table border="0" cellpadding="5" style="border-collapse: collapse" width="450" id="table2">
+            <tr>
+              <td>
+              <form method="POST" name="IAABO Technical Foul Report" action="http://iaabo111.org/private/formmail.php">
+                <table border="0" cellpadding="3" style="border-collapse: collapse" width="100%" id="table3">
+                  <tr>
+                    <td valign="top" width="47%" colspan="2" align="center">
+                    <font size="1" face="verdana">
+                    <input type="radio" name="grade_level" value="High School" style="font-weight: 700; font-variant:small-caps"></font><span style="font-variant: small-caps"><font face="verdana"><b><font size="2">High 
+					School Game</font></b></span></td>
+                    <td valign="top" width="50%" colspan="2" align="center">
+                    <font size="1" face="verdana">
+                    <input type="radio" name="grade_level" value="Middle School" style="font-weight: 700; font-variant:small-caps"></font><span style="font-variant: small-caps; font-weight: 700"><font size="2" face="verdana">Middle 
+					School Game</font></span></td>
+                  </tr>
+                  <tr>
+                    <td valign="top" width="26%"><font size="1"><b>Check one<br>
+                    </b><font size="2">
+                    <input type="radio" value="coachBox" name="ViolationSource" style="font-weight: 700"></font><b>Coaching 
+                    box<br>
+                    </b></font><font size="1" face="verdana">
+                    <input type="radio" value="coachOtherwise" name="ViolationSource" style="font-weight: 700"></font><b><font size="1">Coach, 
+                    otherwise<br>
+                    </font></b><font size="1" face="verdana">
+                    <input type="radio" value="fightingEjection" name="ViolationSource" style="font-weight: 700"></font><b><font size="1">Fighting/Ejection</font></b></td>
+                    <td valign="top" width="21%"><b>
+        <font face="verdana" size="1">
+                    Check one<br>
+                    </font></b>
+        <font face="verdana" size="2">
+                    <input type="radio" name="BoyGirl" value="BoysTeam" style="font-weight: 700"></font><b><font face="verdana" size="1">Boys<br>
+                    </font></b>
+        <font face="verdana" size="2">
+                    <font size="1">
+                    <input type="radio" name="BoyGirl" value="GirlsTeam" style="font-weight: 700"></font><font face="verdana" size="1"><b>Girls</b></td>
+                    <td valign="top" width="25%"><b>
+        <font face="verdana" size="1">
+                    Check one<br>
+                    </font></b>
+        <font face="verdana" size="2">
+                    <input type="radio" name="teamType" value="frosh" style="font-weight: 700"></font><b><font face="verdana" size="1">Frosh<br>
+                    </font></b>
+        <font face="verdana" size="2">
+                    <font size="1">
+                    <input type="radio" name="teamType" value="JV" style="font-weight: 700"></font><b><font face="verdana" size="1">JV<br>
+                    </font></b><font size="1">
+                    <input type="radio" name="teamType" value="Varsity" style="font-weight: 700"></font><font face="verdana" size="1"><b>Varsity</b></td>
+                    <td valign="top" width="25%"><b>
+        <font face="verdana" size="1">
+                    Check one<br>
+                    </font></b>
+        <font face="verdana" size="2">
+                    <input type="radio" name="Violator" value="Coach" style="font-weight: 700"></font><b><font face="verdana" size="1">Coach 
+                    <br>
+                    </font></b>
+                    <font size="1" face="verdana">
+                    <input type="radio" name="Violator" value="Player" style="font-weight: 700"></font><b><font face="verdana" size="1">Player<br>
+                    </font></b>
+        <font face="verdana" size="2">
+                    <font size="1">
+                    <input type="radio" name="Violator" value="other" style="font-weight: 700"></font><font face="verdana" size="1"><b>Other</b></td>
+                  </tr>
+                  <tr>
+                    <td align="right"><b><font size="2">Your Name:<br>
+					</font></b><font face="verdana">
+            		<font size="1" color="#FF0000"><i>(required)</i></font></td>
+                    <td colspan="3"><font size="2" face="verdana">
+                    <input type="text" name="name" size="43"></font></td>
+                  </tr>
+                  <tr>
+        <font face="verdana">
+                    <td align="right"><b><font size="2" face="verdana">Game Date:</font></b></td>
+                    <td colspan="3"><font size="2" face="verdana">
+                    <input type="text" name="gameDate" size="43"></font></td>
+                    </font>
+                  </tr>
+                  <tr>
+        <font face="verdana">
+                    <td align="right"><b><font size="2" face="verdana">Winning 
+                    Team</font></b><font face="verdana"><b><font size="2" face="verdana">:</font></b></td>
+                    <td colspan="3"><font size="2" face="verdana">
+                    <input type="text" name="WinningTeam" size="43"></font></td>
+                    </font>
+                  </tr>
+                  <tr>
+        <font face="verdana">
+                    <td align="right"><b><font size="2" face="verdana">Teams 
+                    Involved</font></b><font face="verdana"><b><font size="2" face="verdana">:</font></b></td>
+                    <td colspan="3"><font size="2" face="verdana">
+                    <input type="text" name="TeamsInvolved" size="43"></font></td>
+                    </font>
+                  </tr>
+                  <tr>
+                    <td align="right"><b><font size="2">Team in Violation:</font></b></td>
+                    <td colspan="3"><font size="2" face="verdana">
+                    <input type="text" name="violating_team" size="43"></font></td>
+                  </tr>
+                  <tr>
+                    <td align="right"><b><font size="2">If &quot;T&quot; on Coach, name:</font></b></td>
+                    <td colspan="3"><font size="2" face="verdana">
+                    <input type="text" name="T_onCoachName" size="43"></font></td>
+                  </tr>
+                  <tr>
+                    <td align="right">
+        <font face="verdana">
+                    <b><font size="2">If &quot;T&quot; on Player, name, team &amp; 
+		number:</font></b></td>
+                    <td colspan="3"><font size="2" face="verdana">
+                    <input type="text" name="T_onPlayerName" size="43"></font></td>
+                  </tr>
+                  <tr>
+                    <td align="right"><b><font size="2" face="verdana">Brief 
+                    description of situation:</font></b></td>
+                    <td colspan="3">
+                    <textarea rows="5" name="description" cols="37"></textarea></td>
+                  </tr>
+                  <tr>
+                    <td align="right"><b><font size="2" face="verdana">Name of Official 
+                    calling Technical:</font></b></td>
+                    <td colspan="3"><font size="2" face="verdana">
+                    <input type="text" name="officialReporting" size="43"></font></td>
+                  </tr>
+                  <tr>
+                    <td align="right"><font size="2"><b>Email<br>
+					</b></font><font size="1" color="#FF0000"><i>(required)</i></font></td>
+                    <td colspan="3"><font size="2" face="verdana">
+                    <input type="text" name="email" size="43"></font></td>
+					
+                  </tr>
+                  <tr>
+                    <td align="right"><b><font size="2" face="verdana">Board #:</font></b></td>
+                    <td colspan="3"><font size="2" face="verdana">
+                    <input type="text" name="boardNumber" size="43"></font></td>
+                  </tr>
+                </table>
+                <p class="MsoNormal">
+				<input type="hidden" name="recipients" value="damesref@tidewater.net,pawsports@aol.com,fsberry@gmail.com"></input>
+				<input type="hidden" name="subject" value="Technical Foul report form"></input>
+                <input type="submit" value="Submit" name="B1"><input type="reset" value="Reset" name="B2"></p>
+              </form>
+              </td>
+            </tr>
+          </table>
+        </div>
+        </td>
+          </tr>
+          <tr>
+            <td width="68%" bgcolor="#FFFFFF">
+        <p align="center"><b>
+        <font face="verdana">
+            COACH AND OR PLAYER EJECTION</b></td>
+          </tr>
+          <tr>
+            <td width="68%" bgcolor="#FFFFFF">
+        <font face="verdana">
+            <ul>
+              <li>
+              <p class="MsoNormal" align="left"><font size="2">Official notify 
+              A.A. at the game site if possible.</font></li>
+              <li>
+              <p class="MsoNormal" align="left"><font size="2">Official notify IAABO 
+				Interpreter ASAP (early next day).</font><b><font size="4" color="#FF0000">*</font></b></li>
+              <li>
+              <p class="MsoNormal" align="left"><font size="2">IAABO Board 
+              Interpreter contact the A.A. involved. </font></li>
+        </ul>
+        </td>
+          </tr>
+          <tr>
+            <td width="68%" bgcolor="#FFFFFF">
+        <blockquote>
+          <p>
+        <font face="verdana">
+            <b><font size="4" color="#FF0000">*</font></b></font><font size="2" face="verdana"> In the event the Board </font>
+			<font size="2" face="verdana">Interpreter cannot be reached, call the 
+			Board Secretary.</font></p>
+        </blockquote>
+        </td>
+          </tr>
+        </table>
+        <table border="0" cellpadding="5" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber1" bgcolor="#F6F6F8">
+          <tr>
+            <td width="13%" bgcolor="#643200" align="center">&nbsp;</td>
+            <td width="87%" bgcolor="#643200">
+            <p align="center">
+            <font face="verdana" color="#ff0000" size="1">
+            <b><font color="#FFFFFF"><a href="#Top">top</a></font></b></font></td>
+          </tr>
+          </table>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>

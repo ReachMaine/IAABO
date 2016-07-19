@@ -1,0 +1,210 @@
+<html>
+
+<head><style>
+.shakeimage{
+position:relative
+}
+p
+	{font-family:verdana, Helvetica, sans-serif;
+	color:#660000;
+	font-size:12px;
+	font-stretch:semi-expanded;
+	line-height:1.5;
+	}
+h3
+	{margin-bottom:.0001pt;
+	text-align:center;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"verdana";
+	font-weight:normal;
+	font-style:margin-left:0in; margin-right:0in; margin-top:0in}
+h4
+	{margin-bottom:.0001pt;
+	text-align:center;
+	page-break-after:avoid;
+	font-size:24.0pt;
+	font-family:"Britannic Bold";
+	font-weight:normal; margin-left:0in; margin-right:0in; margin-top:0in}
+h2
+	{margin-bottom:.0001pt;
+	text-align:center;
+	page-break-after:avoid;
+	font-size:18.0pt;
+	font-family:"ariel";
+	font-weight:normal;
+	font-style:margin-left:0in; margin-right:0in; margin-top:0in}
+h5
+	{
+	font-size:12.0pt;
+		font-family:"Times New Roman", Times, serif;
+	font-style:italic;
+	font-weight:200;
+	}
+ li.MsoNormal
+	{mso-style-parent:"";
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:verdana, Helvetica, sans-serif;
+	margin-left:0in; margin-right:0in; margin-top:0in}
+</style>
+<script language="JavaScript1.2">
+
+/*
+Shake image script (onMouseover)- 
+© Dynamic Drive (www.dynamicdrive.com)
+For full source code, usage terms, and 100's more DHTML scripts, visit http://dynamicdrive.com
+*/
+
+//configure shake degree (where larger # equals greater shake)
+var rector=3
+
+///////DONE EDITTING///////////
+var stopit=0 
+var a=1
+
+function init(which){
+stopit=0
+shake=which
+shake.style.left=0
+shake.style.top=0
+}
+
+function rattleimage(){
+if ((!document.all&&!document.getElementById)||stopit==1)
+return
+if (a==1){
+shake.style.top=parseInt(shake.style.top)+rector
+}
+else if (a==2){
+shake.style.left=parseInt(shake.style.left)+rector
+}
+else if (a==3){
+shake.style.top=parseInt(shake.style.top)-rector
+}
+else{
+shake.style.left=parseInt(shake.style.left)-rector
+}
+if (a<4)
+a++
+else
+a=1
+setTimeout("rattleimage()",50)
+}
+
+function stoprattle(which){
+stopit=1
+which.style.left=0
+which.style.top=0
+}
+
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Welcome to Eastern Maine Board of Approved Basketball Officials (111)
+Website!</title>
+<script src="/__utm.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27661520-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<body background="../images/bballbg.jpg" text="#643200" link="#FF0000" vlink="#643200">
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="8" width="713" height="154">
+    <tr>
+      <td valign="top" width="21" height="25" align="center">
+        <p align="center"><a href="http://www.iaabo.org">
+        <img border="0" src="../images/logo.png" alt="International Association of Approved Basketball Officials, Inc." width="115" height="118"></a></td>
+      <td valign="bottom" width="612" height="25"><font face="verdana">
+        <p align="center" class="MsoNormal" style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">
+        <a name="top">
+        <img border="0" src="../images/iaabo111logo.gif" width="400" height="58"></a><b><O:P><span style="font-family: verdana"><font size="5">
+        </font></O:P>
+        </b></font></td>
+    </tr>
+    <tr>
+      <td valign="top" width="21" height="113" align="center">
+        <p align="center"><font size="3" face="verdana">
+        <a href="../meeting/fall-conference_agenda.htm">
+        <img border="0" src="../images/bballmeeting.gif"class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87"></a></font><p align="center">
+		<font size="3"><a target="_blank" href="../rules.pdf">
+		<img border="0" src="../images/bballrules.gif" class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87"></a></font><p align="center"><font size="3">
+        <a href="index.html">
+        <img border="0" src="../images/bballnews.gif"class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87" alt="User name &amp; password are the same."></a></font><p align="center"><font size="3">
+        <a href="../schools.htm">
+        <img border="0" src="../images/bballschools.gif"class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87"></a></font><p align="center"><font size="3">
+        <a href="../index.htm">
+        <img border="0" src="../images/bballhome.gif"class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87"></a></font><p align="center">&nbsp;</td>
+      <td valign="top" width="612" height="113">
+        <table border="0" cellpadding="5" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber2">
+          <tr>
+            <td width="100%" bgcolor="#643200" align="center">
+            <h1 align="center"><font face="verdana" color="#FFFFFF">MINUTES<br>
+			EXECUTIVE COMMITTEE MEETING</font></h1>
+			</td>
+          </tr>
+          <tr>
+            <td width="100%" bgcolor="#FFFFFF" align="left">
+        
+
+		<h3><font color="#643200">APRIL 30, 2015</font><font color="#643200" face="verdana"><br>
+		VIA PHONE CONFERENCE CALL</font></h3>
+		
+        
+
+		<blockquote>
+			<p><em>Present:&nbsp; Randy Wadleigh, Bill Brooks, Nick Raymond,  Sheridan Davis, Fred Berry, Dave Ames, John Doe, Wayne Prescott, Emil Genest,  &amp; Rick Speed<br>
+			  Others Present:&nbsp; Attorney John Hammer<br>
+			  Absent:&nbsp; Stu Marckoon &amp; Shawn Kimball</em></p>
+            <p>1. President Wadleigh called the  meeting to order @ 8:02 pm</p>
+            <p>2. A motion was made  by Bill Brooks and seconded by Rick Speed to enter Executive Session to discuss  a personnel matter<br>
+              <strong>Vote:&nbsp; &nbsp; 9-0-0&nbsp;&nbsp;&nbsp; Motion:  Passed</strong><br>
+              Time In:  8:03 pm<br>
+              Time Out:  8:25 pm</p>
+            <p>Result of  Executive Session: Board of Directors agreed to approve the legal agreement per  Attorney John Hammer&rsquo;s recommendation.<br>
+              A motion by  Fred Berry and seconded by Bill Brooks<br>
+              <strong>Vote:&nbsp; 8-0-0 Motion:&nbsp;  Passed</strong> (Sheridan Davis left call before vote) </p>
+            <p>Adjournment:</p>
+            <p>Motion was made by Nick Raymond and  seconded by Bill Brooks to adjourn the meeting at&nbsp; 8:30 pm</p>
+            <p><strong>Vote:&nbsp;  8-0-0 Motion: Passed</strong></p>
+            <p>&nbsp;</p>
+            <p>Respecfully submitted,<br>
+              John A. Doe<br>
+              Secretary/Treasurer<br>
+              Board #111
+            </p>
+		</blockquote></td>
+          </tr>
+          <tr>
+            <td width="100%" bgcolor="#643200" align="center">
+            <p align="center">
+            <font face="Verdana, verdana, Helvetica, sans-serif" color="#ff0000" size="1">
+            <b><font color="#FFFFFF"><a href="#Top"><font color="#FFFFFF">
+			<span style="text-decoration: none">Back to Top</font></a></font></b></font></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>

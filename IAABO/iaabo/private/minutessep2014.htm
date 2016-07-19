@@ -1,0 +1,468 @@
+<html>
+
+
+
+<head><style>
+
+.shakeimage{
+
+position:relative
+
+}
+
+p
+
+	{font-family:verdana, Helvetica, sans-serif;
+
+	color:#660000;
+
+	font-size:12px;
+
+	font-stretch:semi-expanded;
+
+	line-height:1.5;
+
+	}
+
+h3
+
+	{margin-bottom:.0001pt;
+
+	text-align:center;
+
+	page-break-after:avoid;
+
+	font-size:14.0pt;
+
+	font-family:"verdana";
+
+	font-weight:normal;
+
+	font-style:margin-left:0in; margin-right:0in; margin-top:0in}
+
+h4
+
+	{margin-bottom:.0001pt;
+
+	text-align:center;
+
+	page-break-after:avoid;
+
+	font-size:24.0pt;
+
+	font-family:"Britannic Bold";
+
+	font-weight:normal; margin-left:0in; margin-right:0in; margin-top:0in}
+
+h2
+
+	{margin-bottom:.0001pt;
+
+	text-align:center;
+
+	page-break-after:avoid;
+
+	font-size:18.0pt;
+
+	font-family:"ariel";
+
+	font-weight:normal;
+
+	font-style:margin-left:0in; margin-right:0in; margin-top:0in}
+
+h5
+
+	{
+
+	font-size:12.0pt;
+
+		font-family:"Times New Roman", Times, serif;
+
+	font-style:italic;
+
+	font-weight:200;
+
+	}
+
+ li.MsoNormal
+
+	{mso-style-parent:"";
+
+	margin-bottom:.0001pt;
+
+	font-size:10.0pt;
+
+	font-family:verdana, Helvetica, sans-serif;
+
+	margin-left:0in; margin-right:0in; margin-top:0in}
+
+</style>
+
+<script language="JavaScript1.2">
+
+
+
+/*
+
+Shake image script (onMouseover)- 
+
+© Dynamic Drive (www.dynamicdrive.com)
+
+For full source code, usage terms, and 100's more DHTML scripts, visit http://dynamicdrive.com
+
+*/
+
+
+
+//configure shake degree (where larger # equals greater shake)
+
+var rector=3
+
+
+
+///////DONE EDITTING///////////
+
+var stopit=0 
+
+var a=1
+
+
+
+function init(which){
+
+stopit=0
+
+shake=which
+
+shake.style.left=0
+
+shake.style.top=0
+
+}
+
+
+
+function rattleimage(){
+
+if ((!document.all&&!document.getElementById)||stopit==1)
+
+return
+
+if (a==1){
+
+shake.style.top=parseInt(shake.style.top)+rector
+
+}
+
+else if (a==2){
+
+shake.style.left=parseInt(shake.style.left)+rector
+
+}
+
+else if (a==3){
+
+shake.style.top=parseInt(shake.style.top)-rector
+
+}
+
+else{
+
+shake.style.left=parseInt(shake.style.left)-rector
+
+}
+
+if (a<4)
+
+a++
+
+else
+
+a=1
+
+setTimeout("rattleimage()",50)
+
+}
+
+
+
+function stoprattle(which){
+
+stopit=1
+
+which.style.left=0
+
+which.style.top=0
+
+}
+
+
+
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<meta http-equiv="Content-Language" content="en-us">
+
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+
+<meta name="ProgId" content="FrontPage.Editor.Document">
+
+<title>Welcome to Eastern Maine Board of Approved Basketball Officials (111)
+
+Website!</title>
+
+
+</head>
+<body background="../images/bballbg.jpg" text="#643200" link="#FF0000" vlink="#643200">
+
+<div align="center">
+
+  <center>
+
+  <table border="0" cellpadding="0" cellspacing="8" width="713" height="154">
+
+    <tr>
+
+      <td valign="top" width="21" height="25" align="center">
+
+        <p align="center"><a href="http://www.iaabo.org">
+
+        <img border="0" src="../images/logo.png" alt="International Association of Approved Basketball Officials, Inc." width="115" height="118"></a></td>
+
+      <td valign="bottom" width="612" height="25"><font face="verdana">
+
+        <p align="center" class="MsoNormal" style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">
+
+        <a name="top">
+
+        <img border="0" src="../images/iaabo111logo.gif" width="400" height="58"></a><b><O:P><span style="font-family: verdana"><font size="5">
+
+        </font></span></O:P>
+
+        </b></font></td>
+
+    </tr>
+
+    <tr>
+
+      <td valign="top" width="21" height="113" align="center">
+
+        <p align="center"><font size="3" face="verdana">
+
+        <a href="../meeting/fall-conference_agenda.htm">
+
+        <img border="0" src="../images/bballmeeting.gif"class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87"></a></font><p align="center">
+
+		<font size="3"><a target="_blank" href="../rules.pdf">
+
+		<img border="0" src="../images/bballrules.gif" class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87"></a></font><p align="center"><font size="3">
+
+        <a href="index.html">
+
+        <img border="0" src="../images/bballnews.gif"class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87" alt="User name &amp; password are the same."></a></font><p align="center"><font size="3">
+
+        <a href="../schools.htm">
+
+        <img border="0" src="../images/bballschools.gif"class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87"></a></font><p align="center"><font size="3">
+
+        <a href="../index.htm">
+
+        <img border="0" src="../images/bballhome.gif"class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87"></a></font><p align="center">&nbsp;</td>
+
+      <td valign="top" width="612" height="113">
+
+        <table border="0" cellpadding="5" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber2">
+
+          <tr>
+
+            <td width="100%" bgcolor="#643200" align="center">
+
+            <h1 align="center"><font face="verdana" color="#FFFFFF">MINUTES<br>
+
+			EXECUTIVE COMMITTEE MEETING</font></h1>
+
+			</td>
+
+          </tr>
+
+          <tr>
+
+            <td width="100%" bgcolor="#FFFFFF" align="center">
+
+        <blockquote>
+
+
+
+<div class="gmail_quote">
+
+	<div lang="EN-US" link="blue" vlink="blue">
+
+		<div>
+
+			<font face="verdana" size="4">SUNDAY,&nbsp; SEPTEMBER 14, 2014<br>
+			HAMPDEN ACADEMY, HAMPDEN, ME</font><p align="left"><i><b>Present:</b> 
+			Chris, Wayne, Gayle, Bill, Nick, Fred, John, Emil, Sheridan, Randy, 
+			&amp; Shawn<br>
+			<br>
+			<b>Other Present: </b>Dave Ames</i></p>
+			<ol>
+	<li>
+	<p align="left">President Wadleigh welcomed everyone and called the meeting to order at 9:00 am
+
+	</li>
+	<li>
+	<p align="left">The BOD reviewed the draft minutes of the Spring 2014 Business Meeting
+
+	</li>
+	<li>
+	<p align="left">The BOD approved the Executive Committee Minutes for March 8, 2014.  Motion by Chris and seconded by Nick  Vote:  (U) Motion passed
+
+	</li>
+	<li>
+	<p align="left">The minutes of the Executive Committee of the Board of Directors for April 24, 2014 and June 16, 2014 were approved.  Motion by Emil and seconded by Wayne Vote: (U)  Motion passed
+
+	</li>
+	<li>
+	<p align="left">Secretary’s Report:  The Secretary thanked the committee for all their cards and emails during his recent illness.  There are currently 117 active officials, 14 non-officiating officials for a total membership of 131 members.  There are 11 female officials and 11 new officials have joined the board.  20 individuals currently have unpaid dues for 2014-2015.  This will have an effect of the income side of the budget for 2014-2015.  Income will be down about $1,500 compared to the budget presented at the Spring 2014 Business Meeting.  Insurance for officials has been paid for 2014-2015 and the Officers and Directors Insurance for 2014-2015 has also been paid.
+	<br>
+	A motion was made by Wayne and seconded by Chris to approve the Secretary’s report.  Vote: (U)  Motion passed
+	</li>
+	<li>
+	<p align="left">Dates and Times of Future Meeting:
+
+	<ul type="disc">
+		<li>
+		<p align="left">October 5th Orientation for new officials at 4:00 pm
+</li>
+		<li>
+		<p align="left">October 19th Board of Directors at 3:00 pm
+</li>
+		<li>
+		<p align="left">Sunday, November 16th Fall Conference at Husson University 8:00-4:00
+		</li>
+		<li>
+		<p align="left">Sunday, November 16th Fall Business Meeting at Husson University at 4:00 pm
+		</li>
+		<li>
+		<p align="left">Sunday, November 30th Exam Night at the University of Maine.                   Review at 6:00 pm & Written and Manual Exam at 7:00 pm
+		</li>
+		<li>
+		<p align="left">Sunday, December 14th Clinic at University of Maine at 2:00 pm
+</li>
+		<li>
+		<p align="left">Sunday, January 11, 2015 Clinic at University of Maine at 10:00 am
+		</li>
+		<li>
+		<p align="left">Sunday, February 15, 2015 Board of Directors meeting at 9:00 am
+
+<br>
+		<br>
+		Dates for Refresher Review and Regional Clinics to be announced
+A motion by Bill and seconded by Gayle to accept the date and times for future meetings.  Vote: (U)  Motion passed
+		</li>
+	</ul>
+	</li>
+	<li>
+	<p align="left">Health Questionnaire was discussed by the BOD.  A motion was made by Wayne and Seconded by Emil to eliminate the health questionnaire.  Vote: (U) Motion passed
+
+	</li>
+	<li>
+	<p align="left">President’s Report:  Discussion of meeting with PVC reps Mr. Dow and Mr. Murphy.  The discussion was about eliminating the school rating.  The PVC voted at their September meeting to keep the school ratings.  Nokomis High School in now part of our assignment system.  Discussion of background checks which was discussed at the Council Meeting in March.  A motion was made to invite Danielle Murphy to do a presentation of background checks to Board #111 at the Fall 2014 Business Meeting and to pay her mileage for the trip.  Motion by Fred and seconded by Chris.  Vote:  10-1-0  Motion passed
+	</li>
+	<li>
+	<p align="left">Discussion of shared agreement with Board 18 and Board 111.  There has been discussion between the two board presidents.  A motion was made by Fred and seconded by Shawn to table the issue.  Vote:  10-0-1  Motion passed
+
+	</li>
+	<li>
+	<p align="left">Pre-season Games:  The rate for pre-season varsity games will be the varsity rate with no travel which was voted on at the Council meeting in March.  No action
+	</li>
+	<li>
+	<p align="left">Some schools will be doing three person pre-season and officials will 
+	receive no fee in exchange for schools having three person assignments 
+	during the regular season. No action </li>
+	<li>
+	<p align="left">Mentoring Pilot Program: Committee is Fred, Sheridan, &amp; Randy. 
+	Interpreter is important part of the program. Sheridan to take the lead on 
+	the program. The program is for officials in the 5 to 10 bracket. There will 
+	be 15 mentors and 15 mentees to start the program. There will be a meeting 
+	with Commissioner Webb in late October. A motion by Shawn and seconded by 
+	Wayne to accept the program. Vote: (U) Motion passed </li>
+	<li>
+	<p align="left">Assignment Discussion: Assignment review committee has met. No real 
+	concerns. PVC has concerns on travel pay. PVC informed that Assigner is not 
+	part of the Board of Directors under the new By-Laws. There was a concern 
+	about officials working with the same partner for the majority of their 
+	games </li>
+	<li>
+	<p align="left">Assignment Policies:  Wayne presented a draft of the revisions to the assignment policies.  The revisions were reviewed by the BOD and comments were taken.
+
+	</li>
+	<li>
+	<p align="left">Interpreter’s Report:  Orientation for new members for 2014 will be on October 5th at 4:00 pm at Reeds Brook Middle School in Room 164.  Fall Conference November 16th at Husson University.  There was discussion about the presentations for the conference.  There will be 4 clinics at the conference.  Clinics will be 1 ½ hours, plus there will be a refresher clinic, and one regional clinic.  Level issues tabled until next meeting.  Prospective class for 2015 has had interest from about 20 individuals.
+
+	</li>
+	<li>
+	<p align="left">Discussion on convicted felon question on prospective application.  A motion was made by Nick and seconded by Chris to include on the application.  Vote: (U) Motion passed.
+	</li>
+	<li>
+	<p align="left">A motion was made by Chris and seconded by Wayne to have an Executive Session to discuss a personnel issue.
+Time In:  11:30 am   Time Out:  11:40 am  No action taken
+
+</li>
+	<li>
+	<p align="left">Future agenda item(s):  Executive Session to discuss a personnel issue and Discussion of Levels on the rating system
+
+	</li>
+	<li>
+	<p align="left">A motion was made by Chris and seconded by Gayle to adjourn at 11:42 am.  Vote:  (U)  Motion passed<br>
+	<br>
+
+(Fred and Sheridan left at 11:02 am) </li>
+</ol>
+			<p align="left">Respectfully submitted,<br>
+			John A. Doe, Secretary</div>
+
+	</div>
+
+</div>
+
+		</blockquote>
+
+			</td>
+
+          </tr>
+
+          <tr>
+
+            <td width="100%" bgcolor="#643200" align="center">
+
+            <p align="center">
+
+            <font face="Verdana, verdana, Helvetica, sans-serif" color="#ff0000" size="1">
+
+            <b><font color="#FFFFFF"><a href="#Top"><font color="#FFFFFF">
+
+			<span style="text-decoration: none">Back to Top</span></font></a></font></b></font></td>
+
+          </tr>
+
+        </table>
+
+      </td>
+
+    </tr>
+
+  </table>
+
+  </center>
+
+</div>
+
+
+
+</body>
+
+
+
+</html>

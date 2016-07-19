@@ -1,0 +1,382 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"latlng",
+				"latlng"
+			],
+			[
+				"html",
+				"htmlspecialchars"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"style",
+				"stylesheet_directory"
+			],
+			[
+				"clear",
+				"clearfix"
+			],
+			[
+				"pull-",
+				"pull-right"
+			],
+			[
+				"p",
+				"padding-left"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"mobi",
+				"mobile-portrait"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"tab",
+				"tablet-landscape"
+			],
+			[
+				"mob",
+				"mobile-portrait"
+			],
+			[
+				"red",
+				"redIcon"
+			],
+			[
+				"get",
+				"getAnimation"
+			],
+			[
+				"pla",
+				"placesLength"
+			],
+			[
+				"ch",
+				"cheibougamouQC"
+			],
+			[
+				"cha",
+				"charlottetownPE"
+			],
+			[
+				"form",
+				"formBody"
+			],
+			[
+				"header",
+				"header-level-three"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"las",
+				"last_name"
+			],
+			[
+				"profile",
+				"profile_name"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "tech-foul.htm",
+			"settings":
+			{
+				"buffer_size": 16304,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Compass/Compass.sublime-build",
+	"command_palette":
+	{
+		"height": 265.0,
+		"selected_items":
+		[
+			[
+				"Package Control: Pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:Install Package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/AddisonP/Links/Joomla Files.lnk",
+		"/C/Users/AddisonP/Desktop/Work/Clients/Watermark/Templates/watermark/index.html",
+		"/C/Users/AddisonP/Desktop/Work/Clients/Watermark/Templates/watermark/sass/ie.scss",
+		"/C/Users/AddisonP/Desktop/Work/Clients/Watermark/Templates/watermark/config.rb",
+		"/C/Users/AddisonP/Desktop/Work/Templates/e250/sass/partials/ftpsync.settings",
+		"/C/Users/AddisonP/Desktop/Templates/e250/templateDetails.xml",
+		"/C/Users/AddisonP/Desktop/Templates/e250/sass/partials/_settings.scss",
+		"/C/Users/AddisonP/Desktop/Templates/e250/sass/master.scss",
+		"/C/Users/AddisonP/Desktop/Templates/e250/index.php",
+		"/C/Users/AddisonP/Desktop/FVfront2/css/lightbox.css",
+		"/C/Users/AddisonP/Desktop/FVfront2/templateDetails.xml",
+		"/C/Users/AddisonP/Desktop/FVfront2/index.php",
+		"/C/Users/AddisonP/Desktop/FVfront2/js/lightbox.js",
+		"/C/Users/AddisonP/Desktop/FVfront2/error.php",
+		"/C/wamp/www/portfolio/wp-content/themes/ea_online/home.php",
+		"/C/wamp/www/portfolio/wp-content/themes/ea_online/.gitignore",
+		"/C/wamp/www/portfolio/wp-content/themes/ea_online/config.rb",
+		"/C/wamp/www/portfolio/wp-content/themes/ea_online/portfolio.php",
+		"/C/wamp/www/portfolio/wp-content/themes/ea_online/page.php",
+		"/C/wamp/www/portfolio/wp-content/themes/ea_online/footer.php",
+		"/C/wamp/www/portfolio/wp-content/themes/ea_online/index.php",
+		"/C/wamp/www/portfolio/wp-content/themes/ea_online/header.php",
+		"/C/wamp/www/portfolio/wp-content/themes/ea_online/screen.css",
+		"/C/Users/AddisonP/Desktop/Websites/DreamShore Aero/.gitignore",
+		"/C/Sites/fun/bourbon/sass/master.scss",
+		"/C/Users/AddisonP/Desktop/Templates/NoonTime/.gitignore",
+		"/C/Users/AddisonP/Development/estel/inuit.css/partials/generic/_shared.scss",
+		"/C/Users/AddisonP/Development/estel/inuit.css/inuit.css",
+		"/C/Users/AddisonP/Development/estel/config.rb",
+		"/C/Users/AddisonP/Development/estel/.gitignore",
+		"/C/Users/AddisonP/Development/estel/sass/style.scss",
+		"/C/Users/AddisonP/Development/estel/header.php",
+		"/C/Users/AddisonP/Development/estel/index.php",
+		"/C/Users/AddisonP/Development/estel/footer.php",
+		"/C/Users/AddisonP/Development/estel/functions.php",
+		"/C/wamp/www/wordpress/wp-content/themes/cooking/style.scss",
+		"/C/wamp/www/wordpress/wp-content/themes/cooking/README.MD",
+		"/C/wamp/www/wordpress/wp-content/themes/cooking/config.rb",
+		"/C/wamp/www/wordpress/wp-content/themes/cooking/page.php",
+		"/C/wamp/www/wordpress/wp-content/themes/cooking/index.php",
+		"/C/wamp/www/wordpress/wp-content/themes/cooking/footer.php",
+		"/C/wamp/www/wordpress/wp-content/themes/cooking/header.php",
+		"/C/wamp/www/wordpress/wp-content/themes/cooking/.gitignore",
+		"/C/wamp/www/wordpress/wp-content/themes/cooking/stylesheets/ie.css",
+		"/C/Users/AddisonP/Desktop/Websites/DreamShore Aero/destinations.html",
+		"/C/Users/AddisonP/Desktop/Websites/DreamShore Aero/index.html",
+		"/C/Users/AddisonP/Desktop/Websites/DreamShore Aero/contact.php",
+		"/C/Users/AddisonP/Desktop/Websites/DreamShore Aero/includes/nav.html",
+		"/C/Users/AddisonP/Desktop/Websites/DreamShore Aero/css/dreamshore.css",
+		"/C/Users/AddisonP/Desktop/Websites/DreamShore Aero/css/winxp.blue.css",
+		"/C/Users/AddisonP/Desktop/Websites/DreamShore Aero/destination.html",
+		"/C/Users/AddisonP/Desktop/Websites/DreamShore Aero/css/maps.css",
+		"/C/wamp/www/Fun/jQueryMap/css/print.css",
+		"/C/wamp/www/Fun/jQueryMap/config.rb",
+		"/C/Sites/Projects/treebook/app/views/devise/registrations/edit.html.erb",
+		"/C/Sites/Projects/treebook/app/views/devise/registrations/new.html.erb",
+		"/C/Sites/Projects/treebook/test/unit/user_test.rb",
+		"/C/Sites/Projects/treebook/test/fixtures/users.yml",
+		"/C/Sites/Projects/treebook/app/models/user.rb",
+		"/C/Sites/Projects/treebook/test/fixtures/statuses.yml",
+		"/C/Users/AddisonP/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/AddisonP/Desktop/Templates/mrindler_single/index.php",
+		"/C/Sites/Projects/treebook/db/migrate/20120913171637_devise_create_users.rb",
+		"/C/Sites/Projects/treebook/Gemfile",
+		"/C/Sites/Projects/treebook/config/environments/development.rb",
+		"/C/Sites/Projects/treebook/config/routes.rb",
+		"/C/Sites/Projects/treebook/app/views/layouts/application.html.erb",
+		"/C/Sites/Projects/treebook/config/application.rb",
+		"/C/wamp/www/MichaelRindler/templates/michaelrindler1/component.php",
+		"/C/Sites/Projects/business/content/stylesheet.css",
+		"/C/Sites/Projects/business/content/index.html",
+		"/C/Sites/Projects/business/output/index.html",
+		"/C/Sites/Projects/business/crash.log",
+		"/C/Sites/Projects/business/content/style/screen.scss",
+		"/C/Sites/Projects/business/Rules",
+		"/C/Sites/Projects/business/layouts/default.html",
+		"/C/Sites/Projects/business/config.rb",
+		"/C/Sites/Projects/online_directory/config.rb",
+		"/C/Sites/Projects/online_directory/content/index.html",
+		"/C/Sites/Projects/treebook/app/assets/javascripts/statuses.js.coffee",
+		"/C/Sites/Projects/treebook/app/assets/stylesheets/statuses.css.scss",
+		"/C/Sites/Projects/treebook/app/views/statuses/index.html.erb",
+		"/C/Sites/Projects/treebook/app/assets/stylesheets/application.css",
+		"/C/Sites/Projects/treebook/app/assets/stylesheets/scaffolds.css.scss",
+		"/C/Sites/Projects/treebook/app/models/status.rb"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"latestnews",
+			"next.png",
+			"_",
+			"#ff6600",
+			"rgb(255, 102, 0)",
+			"Arial",
+			"Georgia, ",
+			"font-family",
+			"?\n"
+		],
+		"highlight": true,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "tech-foul.htm",
+					"settings":
+					{
+						"buffer_size": 16304,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6217,
+								6197
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2431.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 214.0,
+	"status_bar_visible": true
+}

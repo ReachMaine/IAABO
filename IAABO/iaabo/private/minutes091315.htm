@@ -1,0 +1,509 @@
+<html>
+
+
+
+<head><style>
+
+.shakeimage{
+
+position:relative
+
+}
+
+p
+
+	{font-family:verdana, Helvetica, sans-serif;
+
+	color:#660000;
+
+	font-size:12px;
+
+	font-stretch:semi-expanded;
+
+	line-height:1.5;
+
+	}
+
+h3
+
+	{margin-bottom:.0001pt;
+
+	text-align:center;
+
+	page-break-after:avoid;
+
+	font-size:14.0pt;
+
+	font-family:"verdana";
+
+	font-weight:normal;
+
+	font-style:margin-left:0in; margin-right:0in; margin-top:0in}
+
+h4
+
+	{margin-bottom:.0001pt;
+
+	text-align:center;
+
+	page-break-after:avoid;
+
+	font-size:24.0pt;
+
+	font-family:"Britannic Bold";
+
+	font-weight:normal; margin-left:0in; margin-right:0in; margin-top:0in}
+
+h2
+
+	{margin-bottom:.0001pt;
+
+	text-align:center;
+
+	page-break-after:avoid;
+
+	font-size:18.0pt;
+
+	font-family:"ariel";
+
+	font-weight:normal;
+
+	font-style:margin-left:0in; margin-right:0in; margin-top:0in}
+
+h5
+
+	{
+
+	font-size:12.0pt;
+
+		font-family:"Times New Roman", Times, serif;
+
+	font-style:italic;
+
+	font-weight:200;
+
+	}
+
+ li.MsoNormal
+
+	{mso-style-parent:"";
+
+	margin-bottom:.0001pt;
+
+	font-size:10.0pt;
+
+	font-family:verdana, Helvetica, sans-serif;
+
+	margin-left:0in; margin-right:0in; margin-top:0in}
+
+</style>
+
+<script language="JavaScript1.2">
+
+
+
+/*
+
+Shake image script (onMouseover)- 
+
+© Dynamic Drive (www.dynamicdrive.com)
+
+For full source code, usage terms, and 100's more DHTML scripts, visit http://dynamicdrive.com
+
+*/
+
+
+
+//configure shake degree (where larger # equals greater shake)
+
+var rector=3
+
+
+
+///////DONE EDITTING///////////
+
+var stopit=0 
+
+var a=1
+
+
+
+function init(which){
+
+stopit=0
+
+shake=which
+
+shake.style.left=0
+
+shake.style.top=0
+
+}
+
+
+
+function rattleimage(){
+
+if ((!document.all&&!document.getElementById)||stopit==1)
+
+return
+
+if (a==1){
+
+shake.style.top=parseInt(shake.style.top)+rector
+
+}
+
+else if (a==2){
+
+shake.style.left=parseInt(shake.style.left)+rector
+
+}
+
+else if (a==3){
+
+shake.style.top=parseInt(shake.style.top)-rector
+
+}
+
+else{
+
+shake.style.left=parseInt(shake.style.left)-rector
+
+}
+
+if (a<4)
+
+a++
+
+else
+
+a=1
+
+setTimeout("rattleimage()",50)
+
+}
+
+
+
+function stoprattle(which){
+
+stopit=1
+
+which.style.left=0
+
+which.style.top=0
+
+}
+
+
+
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<meta http-equiv="Content-Language" content="en-us">
+
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+
+<meta name="ProgId" content="FrontPage.Editor.Document">
+
+<title>Welcome to Eastern Maine Board of Approved Basketball Officials (111)
+
+Website!</title>
+
+
+</head>
+
+
+
+<body background="../images/bballbg.jpg" text="#643200" link="#FF0000" vlink="#643200" style="font-family: verdana">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TLWNXT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TLWNXT');</script>
+<!-- End Google Tag Manager -->
+
+
+<div align="center">
+
+  <center>
+
+  <table border="0" cellpadding="0" cellspacing="8" width="713" height="154">
+
+    <tr>
+
+      <td valign="top" width="21" height="25" align="center">
+
+        <p align="center"><a href="http://www.iaabo.org">
+
+        <img border="0" src="../images/logo.png" alt="International Association of Approved Basketball Officials, Inc." width="115" height="118"></a></td>
+
+      <td valign="bottom" width="612" height="25"><font face="verdana">
+
+        <p align="center" class="MsoNormal" style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">
+
+        <a name="top">
+
+        <img border="0" src="../images/iaabo111logo.gif" width="400" height="58"></a><b><O:P><span style="font-family: verdana"><font size="5">
+
+        </font></span></O:P>
+
+        </b></font></td>
+
+    </tr>
+
+    <tr>
+
+      <td valign="top" width="21" height="113" align="center">
+
+        <p align="center"><font size="3" face="verdana">
+
+        <a href="../meeting/fall-conference_agenda.htm">
+
+        <img border="0" src="../images/bballmeeting.gif"class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87"></a></font><p align="center">
+
+		<font size="3"><a target="_blank" href="../rules.pdf">
+
+		<img border="0" src="../images/bballrules.gif" class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87"></a></font><p align="center"><font size="3">
+
+        <a href="index.html">
+
+        <img border="0" src="../images/bballnews.gif"class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87" alt="User name &amp; password are the same."></a></font><p align="center"><font size="3">
+
+        <a href="../schools.htm">
+
+        <img border="0" src="../images/bballschools.gif"class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87"></a></font><p align="center"><font size="3">
+
+        <a href="../index.htm">
+
+        <img border="0" src="../images/bballhome.gif"class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87"></a></font><p align="center">&nbsp;</td>
+
+      <td valign="top" width="612" height="113">
+
+        <table border="0" cellpadding="5" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber2">
+
+          <tr>
+
+            <td width="100%" bgcolor="#643200" align="center">
+
+            <h1 align="center"><font face="verdana" color="#FFFFFF">MINUTES<br>
+
+			EXECUTIVE COMMITTEE MEETING</font></h1>
+
+			</td>
+
+          </tr>
+
+          <tr>
+
+            <td width="100%" bgcolor="#FFFFFF" align="center">
+
+        <table border="0" cellpadding="0" cellspacing="0" width="90%">
+			<tr>
+				<td>
+				<h3 align="center"><span style="text-transform: uppercase">
+				<font face="verdana">SEPTEMBER 13, 2015<br>
+				hAMPDEN aCADEMY
+				</font></span>				</h3>
+				<p><i><font size="2">Present: Rick, Fred, Sheridan, Nick, Randy, Stu, Emil, John, & Shawn<br>
+				  Dave Ames via telephone from 8:30 am to 9:10 am<br>
+				  David Mansfield in attendance at 9:10 am </font><font size="2"><br>
+				  Absent: Wayne, Bill</font></i></p>
+				<ol type="I">
+					<li>President Wadleigh called the meeting to order at 7:54am<br>
+					  President Wadleigh welcomed the new members to the Board of Directors (B of D)
+					  <br>
+&nbsp;</li>
+					<li><b>Approval of minutes</b> B of D, March 7 and EC on 4-9<br>
+					  A motion by Emil/Shawn to accept the B of D minutes of March 7, 2015
+					  <br>
+					<b>Vote 7 Yes 0 No 2 Abstained Motion passed<br>
+					<br>
+					</b>A motion by Emil/Nick to accept teh Executive Committee minutes of April 9, 2015<b> Vote (U) passed<br>
+					<br>
+					</b>a. Review minutes from Spring business meeting no action was taken <br>
+					  &nbsp;</li>
+					<li><b>Secretary Report</b>
+					  <ol type="a">
+					  <li>Transferred- Ryan Kimball, Victor Garay, & Paul Withee </li>
+					  <li>Dual Members-Paul Withee</li>
+					  <li>Members not returning:  Cary Libby, Fritz, Bob Morse, Rich Nutter, Karen Richter, Mark Taylor, & Charlie Wing<br>
+					    <br>
+					    A motion was made by Randy/Stu to accept <br>
+					    Marnadou Ba as a dual member of Board #111. <br>
+					    <br>
+					    <strong>Vote:  9 Yes 0 No	Motion passed</strong></li>
+					  <li>Discussion of status of Lon Bagley.  Request that Lon provide a certification letter from the Federation and Dave Ames recommended he attend three of his new officials clinics, take and pass the IAABO written exam in early November, and pay the new officials class fee of $110.00.<br>
+					    <br>
+					    A motion by Randy/Emil to accept the recommendations.<br>
+					    <br>
+					    <strong>Vote 9 Yes 0 No    Motion passed</strong><br>
+					    &nbsp;</li>
+                         <li>Jim Trippany has transferred to Board #111 from Vermont Board 105.  He has fifteen years experience at the varsity level.  He will be living in Hampden as of October 1st.<br>
+					    &nbsp;</li>
+                        <li>Liability insurance- premium and special payment: Payment for November 23, 2015 to November 23, 2016 was made on 8/31/2015 in the amount of $740. (same amount as prior years)<br>
+					    &nbsp;</li>
+                        <li>Cancer donation:  The donation from Board #111 will be made to Cancer Care of Maine in Brewer.  John will take care of it.<br>
+					    &nbsp;</li>
+                        <li>Ad for Hall of Fame:  Ad was placed from Board #111 in the amount of $300.00 in recognition of Peter Webb.<br>
+					    &nbsp;</li>
+                        <li>Secretary reviewed the list of completed background checks as of 9/10/15 there were 71.  B of D members will contact individuals in their area who have not completed and/or submitted form.<br>
+					    &nbsp;</li>
+                        <li>Katy DiMare from American Cancer Society of New England would like to attend the next business meeting to thank officials and promote Officials vs Cancer program.  (No Action Taken)<br>
+					    &nbsp;</li>
+                        <li>Bob Lantzy from Honigs will be at the Fall Conference<br>
+					    &nbsp;</li>
+                        <li>IAABO RefSchool available on 9/15.  Bulk subscriptions are available and Online Refresher available 9/25.  The cost is $2.00 per official.  (No Action Taken)<br>
+					    &nbsp;</li>
+                        <li>Secretary reviewed the list of unpaid dues for 2015-2016.  B of D members will make contact with individuals in there area.<br>
+					    &nbsp;</li>
+                        <li>Approval of meeting dates and clinics 2015-16<br>
+                          i.	Board of Directors/Fall and Spring membership meetings<br>
+                          ii.	Fall conference<br>
+                          iii.	Test night<br>
+                          <br>
+                          (Attached to the minutes)  A motion was made by Nick/Stu to accept the recommendation for meeting dates & clinics for 2015-2016.<br>
+                          <br>
+                          <strong>Vote: 9 Yes 0 No Motion passed</strong><br>
+                          <br>
+                          iv.	New official orientation- October 4th @4:30pm (no action) <br>
+					    &nbsp;</li>
+					  </ol>
+					  </li>
+					<li>Mentoring program- Report by <strong>Sheridan & David Mansfield</strong>:  Eleven invitations for the program have been sent out.  Dave Ames and Sheridan will meet with mentors to discuss the program.  More involvement from mentors and mentees is needed.<br>
+					  <br>
+					  Cody Herring is inactive this year and he is attending Grad School at Springfield College.<br>
+					  <br>
+					  Assignment Review Committee Comments:  Mentees working more games than non-mentees. </li>
+					<li>Policy committee- <strong>Shawn</strong> for <strong>Wayne<br>
+					  <br>
+					</strong>a.	 Background check, Dues agreement form, & membership policies were reviewed by Shawn with input from the B of D.<br>
+					<br>
+					b.	The committee will review the recommendation from the B of D <br>
+&nbsp;
+					</li>
+					<li><b>Fall conference/Fall Business Meeting</b>
+					  <ol type="a">
+						<li>List of 25/two assigners vote: Discussed</li>
+						<li>Agenda for conference. Presenter: Dave Amers will cordination<br>
+&nbsp;</li>
+					</ol>
+					</li>
+					<li><strong>Interpreter’s report</strong>-Via conference call<br>
+					  <br>
+					  a.	Ratings this season and plan for next season:  Suggestion from Dave Ames. Availability to 3 pts. 0-7 x’s =3 pts./8-15 x’s = 2 pts./16-20 x’s = 1 pt.  Assigner’s Cooperation 1, 2, or 3 pts.  Extra clinics to 1.5 pts per clinic for a total of 100 pts.<br>
+					  <br>
+					  b.	Other: Too many individuals in Level I/ Need to use up to about 50 officials for varsity games on some nights.  The Y is looking for officials for games for fifth and sixth grade students.  Fee is $25 per game and background checks will be required <br>
+&nbsp;
+					</li>
+					<li>Assignment review committee: See Mentor Program<br>
+					<br>
+					<br>
+&nbsp;</li>
+					<li>Basketball Council-<strong>Fred</strong>:  Discussion about the five boards sharing in the cost of the Region 10 Rep to attended National IAABO Conference.  The cost has been paid by the Western Maine Board up to this date.<br>
+						<br>
+						<br>
+&nbsp; </li>
+					<li><b>Executive Session: </b>Request for Executive Session to Discuss Fall Conference<br>
+					  <br>
+					  A motion by Nick/Fred to enter executive session.Vote:  (U) Motion passed<br>
+					  <br>
+					  Time In:  9:48 am<br>
+					  Time Out:  10:25 am<br>
+					  <br>
+					  No action as a result of Executive Session<br>
+					<br>
+&nbsp;</li>
+<li>Future Agenda Items:<br>
+  Katy DiMare from American Cancer Society of New England<br>
+  Fall business meeting details<br>
+  Fall Conference agenda/presenters<br>
+  Fingerprinting policy<br>
+  Ratings<br>
+  Mentoring<br>
+  Sharing cost of Region 10 Rep <br>
+					<br>
+&nbsp;</li>
+					<li>Discussion of Minute of March 7, 2015<br>
+					a. Rating: Use the three year average of assigned varsity game the past three years to determine levels<br>
+					<br>
+					Motion: Fred , Second: Randy, Vote: 6-2-0 Motion Passed
+                    </li>
+                    <li><b>Adjourn: A motion was made to adjourn at 11:10 am Vote: (U) Motion Passed</b></li>
+				</ol>
+				<p><br>
+				Respectfully submitted,<br>
+				<br>
+				John A. Doe<br>
+				Secretary Board #111<br>
+				<br>
+				<h2><strong>MEETING DATES<br>
+				  2015 - 2016
+				</strong>
+				</p>
+				</h2>
+				<p> Refresher Exam Review Dates: To Be Announced<br>
+				  <br>
+				  Due Date: To Be Announced<br>
+				  <br>
+				  Regional Clinic Dates: To Be Announced<br>
+				  <br>
+				  Fall Conference:  November 15, 2015/Hampden Academy/Registration 8-8:30 am/Conference 8:30-4:00 pm<br>
+				  <br>
+				  Fall Business Meeting November 15th Hampden Academy @ 4:00 pm<br>
+				  <br>
+				  Test Night:  Sunday, November 29, 2015                               Review at 6:00 pm/Test at 7:00 pm<br>
+				  <br>
+December Clinic:  December 13, 2015 at 2:00 pm<br>
+<br>
+January Clinic:  January 10, 2016 at 10:00 am<br>
+<br>
+Board of Directors:  February 14, 2016 at 9:00 am<br>
+<br>
+Spring Business Meeting:  March 5, 2016 at 10:00 am
+</td>
+			</tr>
+		</table>
+
+			</td>
+
+          </tr>
+
+          <tr>
+
+            <td width="100%" bgcolor="#643200" align="center">
+
+            <p align="center">
+
+            <font face="Verdana, verdana, Helvetica, sans-serif" color="#ff0000" size="1">
+
+            <b><font color="#FFFFFF"><a href="#Top"><font color="#FFFFFF">
+
+			<span style="text-decoration: none">Back to Top</span></font></a></font></b></font></td>
+
+          </tr>
+
+        </table>
+
+      </td>
+
+    </tr>
+
+  </table>
+
+  </center>
+
+</div>
+
+
+
+</body>
+
+
+
+</html>

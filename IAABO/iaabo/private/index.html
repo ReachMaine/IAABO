@@ -1,0 +1,662 @@
+<html>
+
+
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><style>
+
+.shakeimage{
+
+position:relative
+
+}
+
+DIV.Section1 {
+
+	page: Section1
+
+}
+
+</style>
+
+<script language="JavaScript1.2">
+
+
+
+/*
+
+Shake image script (onMouseover)- 
+
+© Dynamic Drive (www.dynamicdrive.com)
+
+For full source code, usage terms, and 100's more DHTML scripts, visit http://dynamicdrive.com
+
+*/
+
+
+
+//configure shake degree (where larger # equals greater shake)
+
+var rector=3
+
+
+
+///////DONE EDITTING///////////
+
+var stopit=0 
+
+var a=1
+
+
+
+function init(which){
+
+stopit=0
+
+shake=which
+
+shake.style.left=0
+
+shake.style.top=0
+
+}
+
+
+
+function rattleimage(){
+
+if ((!document.all&&!document.getElementById)||stopit==1)
+
+return
+
+if (a==1){
+
+shake.style.top=parseInt(shake.style.top)+rector
+
+}
+
+else if (a==2){
+
+shake.style.left=parseInt(shake.style.left)+rector
+
+}
+
+else if (a==3){
+
+shake.style.top=parseInt(shake.style.top)-rector
+
+}
+
+else{
+
+shake.style.left=parseInt(shake.style.left)-rector
+
+}
+
+if (a<4)
+
+a++
+
+else
+
+a=1
+
+setTimeout("rattleimage()",50)
+
+}
+
+
+
+function stoprattle(which){
+
+stopit=1
+
+which.style.left=0
+
+which.style.top=0
+
+}
+
+
+
+</script>
+
+
+
+<meta http-equiv="Content-Language" content="en-us">
+
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+
+<meta name="ProgId" content="FrontPage.Editor.Document">
+
+<title>IAABO Members Section</title>
+
+
+</head>
+
+
+
+<body background="../images/bballbg.jpg" text="#643200" link="#D02A27" vlink="#D02A27" alink="#643200">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TLWNXT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TLWNXT');</script>
+<!-- End Google Tag Manager -->
+
+
+<div align="center">
+
+  <center>
+
+  <table border="0" cellpadding="0" cellspacing="8" width="713">
+
+    <tr>
+
+      <td valign="top" width="21" height="27" align="center">
+
+        <p align="center"><a href="http://www.iaabo.org">
+
+        <img border="0" src="../images/logo.png" alt="International Association of Approved Basketball Officials, Inc." width="87" height="90"></a></td>
+
+      <td valign="bottom" width="612" height="27"><font face="verdana">
+
+        <p align="center" class="MsoNormal" style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">
+
+        <img border="0" src="../images/iaabo111logo.gif" width="400" height="58"><b><O:P><span style="font-family: verdana"><font size="5">
+
+        </font></span></O:P>
+
+        </b></font></td>
+
+    </tr>
+
+    <tr>
+
+      <td valign="top" width="21" align="center">
+
+        <p align="center"><b>
+
+		<a href="../meeting/fall-conference_agenda.htm" style="text-decoration: none">
+
+		<font size="4" face="verdana">
+
+        <img border="0" src="../images/bballmeeting.gif"class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87"></font></a></b><p align="center">
+
+		<font size="3">
+
+        <a target="_blank" href="../rules.pdf">
+
+        <img border="0" src="../images/bballrules.gif"class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87"></a></font><p align="center"><font size="3">
+
+        <a href="fall-newsletter07.html">
+
+        <img border="0" src="../images/bballnews.gif"class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87"></a></font><p align="center"><font size="3">
+
+        <a href="../schools.htm">
+
+        <img border="0" src="../images/bballschools.gif"class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87"></a></font><p align="center">
+
+        <font size="3">
+
+        <a href="../index.htm">
+
+        <img border="0" src="../images/bballhome.gif"class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87"></a></font></td>
+
+      <td valign="top" width="612" height="113">
+
+        <font face="verdana">
+
+        <table border="0" cellpadding="5" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber1">
+
+          <tr>
+
+            <td width="100%" bgcolor="#643200" align="center">
+
+        <span style="text-transform: uppercase"><b>
+
+        <font face="verdana" color="#FFFFFF" size="5">
+
+        Members only</font></b></span></td>
+
+          </tr>
+
+          <tr>
+
+            <td width="100%" bgcolor="#FFFFFF" valign="top" style="font-family: verdana; color: #FFFFFF; font-size: 12pt; font-weight: bold">
+
+        <font color="#643200" face="verdana">
+
+		<div align="center">
+
+		<table border="0" cellpadding="3" cellspacing="0" width="100%">
+
+			<tr>
+
+				<td>
+
+				<div align="center">
+
+					<table border="1" cellpadding="5" cellspacing="0" width="90%" height="90%" bordercolor="#FF0000" style="border-collapse: collapse">
+
+						<tr>
+
+							<td bgcolor="#FFFFFF">
+
+        <font color="#643200" face="verdana">
+
+		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+			<tr>
+
+				<td style="border-left-style: solid; border-left-width: 1px; border-right-style: solid; border-right-width: 1px; border-top-style: solid; border-top-width: 1px">
+
+				<p align="center">
+
+        <font color="#643200" face="verdana">
+
+		<b>Now Available</b></td>
+
+			</tr>
+
+			<tr>
+
+				<td style="border-left-style: solid; border-left-width: 1px; border-right-style: solid; border-right-width: 1px; border-bottom-style: solid; border-bottom-width: 1px">
+
+								<table border="5" cellpadding="5" cellspacing="0" width="100%" bordercolor="#D02A27" id="table2">
+
+									<tr>
+
+										<td bgcolor="#D02A27" align="center">
+
+										<span style="text-transform: uppercase">
+
+										<b><font face="Verdana" color="#FFFFFF">
+
+										Board minutes &amp; reports</font></b></span></td>
+
+									</tr>
+
+									<tr>
+
+										<td bgcolor="#FFFFFF">
+
+											&nbsp;<ul>
+										
+                                                <li>
+											
+												<font color="#643200" face="verdana">
+ 
+												<b>
+												<a style="text-decoration: none" href="minutes091315.htm">Executive Committee Minutes 
+												September 13, 2015</a></b></font></li>
+                                                <li>
+											
+												<font color="#643200" face="verdana">
+ 
+												<b>
+												<a style="text-decoration: none" href="minutes043015.htm">Executive Committee Minutes 
+												April 3, 2015</a></b></font></li>
+                                                <li>
+											
+												<font color="#643200" face="verdana">
+ 
+												<b>
+												<a style="text-decoration: none" href="minutesdec2014.htm">Executive Committee Minutes 
+												December 14, 2014</a></b></font></li>
+											<li>
+											
+												<font color="#643200" face="verdana">
+ 
+												<b>
+												<a href="minutesoct2014.htm" style="text-decoration: none">
+												Executive Committee Minutes 
+												October 19, 2014</a></b></font></li>
+
+												<li>
+											
+												<font color="#643200" face="verdana">
+ 
+												<b>
+												<a href="minutessep2014.htm" style="text-decoration: none">
+												Executive Committee Minutes 
+												September 14, 2014</a></b></font></li>
+												<li><a style="text-decoration: none; font-weight: bold" href="minutesfeb2014.htm">Executive Committee Minutes February 20, 2013</a></li>
+												<li>
+												<a style="text-decoration: none; font-weight: bold" href="minutesjanuary2014.htm">Executive Committee Minutes January 12, 2013</a></li>
+												<li>
+												<a style="text-decoration: none; font-weight: bold" href="minutesoctober2013.htm">Executive Committee Minutes October 6, 2013</a></li>
+												<li>
+												<b>
+												<a style="text-decoration: none" href="minutesmarch2013.htm">Executive Committee Minutes 
+
+												March 9, 2013</a></b></li>
+												<li><b>
+												<a href="minutesfeb22013.htm" style="text-decoration: none">Executive Committee Minutes 
+
+												January 13, 2013</a></b></li>
+												<li>
+												<b>
+												<a href="minutesfeb2013.htm" style="text-decoration: none">Executive 
+
+		Committee Minutes December 16, 2012</a></b></li>
+												<li><b>
+												<a href="minutesdec2012.htm" style="text-decoration: none">Special Executive Committee Meeting 
+
+		October 29</a> </b></li>
+												<li><b>
+												<a href="minutesAug2012.htm" style="text-decoration: none">August 19,2012</a></b></li>
+												<li>
+												<a href="minutesspring2012.htm" style="text-decoration: none; font-weight: bold">Spring 2012 Business Meeting 
+												</a></li>
+												<li>
+												<img border="0" src="../pix/2.jpg" align="right"><a href="minutesJan2012.htm" style="text-decoration: none; font-weight: 700">January 8 2012</a></li>
+												<li>
+												<a href="minutesfall2011.htm" style="text-decoration: none; font-weight: bold">Fall 
+
+												2011 Business Meeting</a></li>
+												<li>
+												<a href="minutes121011.htm" style="text-decoration: none; font-weight: bold">December 10 2011</a></li>
+												<li>
+												<a href="minutes112011.htm" style="text-decoration: none; font-weight: bold">November 20 2011</a></li>
+												<li><b>
+												<a target="_blank" href="mar11-minutes.pdf" style="text-decoration: none; font-weight: bold">Mar. 10 2011</a></b></li>
+												<li><b>
+												<a href="minutes121210.htm" style="text-decoration: none; font-weight: bold">Dec. 12 2010</a></b></li>
+
+												</ul>
+
+										</td>
+
+									</tr>
+
+								</table>
+
+				</td>
+
+			</tr>
+
+		</table>
+
+		<ul>
+
+			<li><font face="verdana"><b>
+
+			<a style="text-decoration: none" target="_blank" href="roster.pdf">Officials 
+
+								Contact List</a></b></font></li>
+
+			<li><font color="#FF0000"><b>
+
+			<a href="constitution.pdf" style="text-decoration: none">IAABO111 &nbsp;</a></b></font><a href="constitution.pdf" style="text-decoration: none"><b>By 
+
+			Laws</b></a></li>
+
+			<li><b><a href="ethics.pdf" style="text-decoration: none">Board 111 Ethics Policy</a></b></li>
+			<li><b><a href="solicitation.pdf" style="text-decoration: none">Board 111 Solicitation Policy</a></b></li>
+
+			<li><font color="#FF0000"><b>
+
+			<a href="assignment.pdf" style="text-decoration: none">IAABO111 Assignment Guides</a></b></font></li>
+
+			<li><font color="#FF0000"><b>
+
+			<a href="../address-change.htm" style="text-decoration: none">Change of 
+
+							Address Form</a></b></font></li>
+
+			<li><b><font color="#FF0000">
+
+			<a href="tech-foul.htm" style="text-decoration: none">Technical Foul 
+
+							Report</a></font></b></li>
+
+		</ul>
+
+							</td>
+
+						</tr>
+
+					</table>
+
+				</div>
+
+				</td>
+
+			</tr>
+
+		</table>
+
+		</div>
+
+		</font></td>
+
+          </tr>
+
+          <tr>
+
+            <td width="100%" bgcolor="#643200" valign="top">
+
+        <p align="center"><b><font size="4" color="#FFFFFF" face="verdana">ABOUT IAABO Board 111</font></b></td>
+
+          </tr>
+
+          <tr>
+
+            <td width="100%" bgcolor="#FFFFFF" valign="top">
+
+        <font color="#643200" face="verdana">
+
+		<blockquote>
+
+			<blockquote>
+
+				<blockquote>
+
+					<div align="center">
+
+						<table border="0" cellpadding="0" cellspacing="0" width="450" id="table3">
+
+							<tr>
+
+								<th colspan="2">
+
+        <font color="#643200" face="verdana">
+
+		<p class="MsoNormal" align="center">
+
+		<span style="text-transform:uppercase; font-weight:700">Territory</span></p>
+
+		</font>
+
+								</th>
+
+							</tr>
+
+							<tr>
+
+								<td align="center">
+
+        <font color="#643200" face="verdana">
+
+					<span style="font-weight: 400"><font size="2">Hancock County
+
+					</font></span><font size="2"><span style="font-weight: 400">
+
+					<br>
+
+					Knox County</span></font></font></td>
+
+								<td align="center">
+
+								<font size="2" color="#643200" face="verdana"><span style="font-weight: 400">
+
+					Penobscot County<br>
+
+					Piscataquis 
+
+			County</span></font></td>
+
+							</tr>
+
+							<tr>
+
+								<td colspan="2">
+
+        <font color="#643200" face="verdana">
+
+					<p class="MsoNormal" align="center">
+
+					<span style="font-weight: 400"><font size="2">Waldo County</font></span></p>
+
+		</font>
+
+								</td>
+
+							</tr>
+
+						</table>
+
+					</div>
+
+				</blockquote>
+
+			</blockquote>
+
+		</blockquote>
+
+		</font>
+
+			</td>
+
+          </tr>
+
+          <tr>
+
+            <td width="100%" bgcolor="#FFFFFF" valign="top">
+
+        <p align="center"><b><font color="#643200" face="verdana">OFFICERS&nbsp;</font></b></td>
+
+          </tr>
+
+          <tr>
+
+            <td width="100%" bgcolor="#FFFFFF" valign="top">
+
+        <font color="#643200" face="verdana">
+
+		<table border="0" cellSpacing="0" cellPadding="5" width="100%" bgColor="#ffffff" id="table1">
+
+			<tr>
+					<td bordercolor="#FFFFFF" bgcolor="#FFFFFF" style="font-family: Verdana, Geneva, sans-serif; font-size: 12px; color: #643200">
+								<ul type="square">
+									<li>
+									<b><font size="2">President 
+			</font></b><i><font size="1">(2016) <br>
+									</font></i><font size="2">Randy Wadleigh </font><br>
+									<font size="2">
+									<a href="mailto:rwadleigh@roadrunner.com" style="text-decoration: none; font-weight: bold">Email</a></font><b><font size="2"><br>
+									&nbsp;</font></b><li>
+									<b><font size="2">President-elect &nbsp;</font></b><font size="1"><i>(2016)</i></font><font size="2"><b><br>
+									</b>Wayne Prescot <br>
+									</font><br>
+									<li>
+									<b><font size="2">Past President </font></b>
+									<i><font size="1">(2016)<br>
+									</font></i><font size="2">Shawn Kimball<br>
+									<a href="mailto:shawnkball@gmail.com" style="text-decoration: none; font-weight: bold">
+									Email</a></font><i><font size="1"> <br>
+									</font></i><br>
+									<li>
+									<b><font size="2">Vice President 
+									</font></b>
+									<font size="1"><i>&nbsp;(2016)</i></font><font size="2"><b><br>
+									</b>Emil Genest<br>
+&nbsp;</font><li>
+									<b><font size="2">Interpreter 
+									</font></b>
+									<font size="1"><i>(2016)</i></font><font size="2"><b>
+									<br>
+									</b>
+			David Ames<br><a href="mailto: 	damesref@tidewater.net" style="text-decoration: none; font-weight: bold">Email</a>
+									<br>
+									<br>
+									</font><li>
+									<b><font size="2">Secretary/Treasurer &nbsp;</font></b><font size="1"><i>(2016)
+									<br>
+									</i></font>
+									<b><font size="2">Comm. Rep </font></b><font size="1"><i>(2017)
+									</i></font><font size="2"><b>
+									<br>
+									</b>John A. Doe<br>
+									<a href="mailto:jsdoe@myfairpoint.net" style="text-decoration: none; font-weight: bold">Email</a>&nbsp;
+									<br>PO Box 341<br>East Millinocket, ME 04430<br>Work: 
+			365-4272 <br>Home: 746-3784</font></li>
+								</ul></td>
+									<td bordercolor="#FFFFFF" bgcolor="#FFFFFF" style="font-family: Verdana, Geneva, sans-serif; font-size: 12px; color: #643200">
+								<ul>
+									<li>
+									<b><font size="2">Assigner </font></b><i><font size="1">(2016)<br></font></i><font size="2">David Mansfield &nbsp;<br>
+									<a href="mailto:ziggy52100@aol.com" style="text-decoration: none; font-weight: bold">Email</a><b>&nbsp;
+									</b>
+									<br>39 Elizabeth Avenue<br>Bangor, ME 04401<br>
+									v 942-2572 &#8226; m 478-5090 <b>
+									<br>
+									<br>
+									</b></font><li>
+									<font size="2">
+									<b>
+									<img border="0" src="../pix/1.jpg" align="right">ME Basketball Commission:<br></b>Mr. Peter Webb, Commissioner<br>
+									PO Box 74<br>Stetson, ME 04488<br>296-2472</font></li>
+								</ul></td>
+									</tr>
+
+		</table>
+
+		</font>
+
+			</td>
+
+          </tr>
+
+          <tr>
+
+            <td width="100%" bgcolor="#643200" valign="top">
+
+        <p align="center">
+
+        <font face="verdana">
+
+        <span style="text-transform: uppercase"><b>
+
+        <font face="verdana" color="#FFFFFF" size="5">
+
+        Members only</font></b></span></font></td>
+
+          </tr>
+
+        </table>
+
+        </font></td>
+
+    </tr>
+
+  </table>
+
+  </center>
+
+</div>
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Members Only"
+AuthUserFile "/home/iaabo/.htpasswds/public_html/private/passwd"
+require valid-user

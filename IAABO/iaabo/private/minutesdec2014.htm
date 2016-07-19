@@ -1,0 +1,490 @@
+<html>
+
+
+
+<head><style>
+
+.shakeimage{
+
+position:relative
+
+}
+
+p
+
+	{font-family:verdana, Helvetica, sans-serif;
+
+	color:#660000;
+
+	font-size:12px;
+
+	font-stretch:semi-expanded;
+
+	line-height:1.5;
+
+	}
+
+h3
+
+	{margin-bottom:.0001pt;
+
+	text-align:center;
+
+	page-break-after:avoid;
+
+	font-size:14.0pt;
+
+	font-family:"verdana";
+
+	font-weight:normal;
+
+	font-style:margin-left:0in; margin-right:0in; margin-top:0in}
+
+h4
+
+	{margin-bottom:.0001pt;
+
+	text-align:center;
+
+	page-break-after:avoid;
+
+	font-size:24.0pt;
+
+	font-family:"Britannic Bold";
+
+	font-weight:normal; margin-left:0in; margin-right:0in; margin-top:0in}
+
+h2
+
+	{margin-bottom:.0001pt;
+
+	text-align:center;
+
+	page-break-after:avoid;
+
+	font-size:18.0pt;
+
+	font-family:"ariel";
+
+	font-weight:normal;
+
+	font-style:margin-left:0in; margin-right:0in; margin-top:0in}
+
+h5
+
+	{
+
+	font-size:12.0pt;
+
+		font-family:"Times New Roman", Times, serif;
+
+	font-style:italic;
+
+	font-weight:200;
+
+	}
+
+ li.MsoNormal
+
+	{mso-style-parent:"";
+
+	margin-bottom:.0001pt;
+
+	font-size:10.0pt;
+
+	font-family:verdana, Helvetica, sans-serif;
+
+	margin-left:0in; margin-right:0in; margin-top:0in}
+
+</style>
+
+<script language="JavaScript1.2">
+
+
+
+/*
+
+Shake image script (onMouseover)- 
+
+© Dynamic Drive (www.dynamicdrive.com)
+
+For full source code, usage terms, and 100's more DHTML scripts, visit http://dynamicdrive.com
+
+*/
+
+
+
+//configure shake degree (where larger # equals greater shake)
+
+var rector=3
+
+
+
+///////DONE EDITTING///////////
+
+var stopit=0 
+
+var a=1
+
+
+
+function init(which){
+
+stopit=0
+
+shake=which
+
+shake.style.left=0
+
+shake.style.top=0
+
+}
+
+
+
+function rattleimage(){
+
+if ((!document.all&&!document.getElementById)||stopit==1)
+
+return
+
+if (a==1){
+
+shake.style.top=parseInt(shake.style.top)+rector
+
+}
+
+else if (a==2){
+
+shake.style.left=parseInt(shake.style.left)+rector
+
+}
+
+else if (a==3){
+
+shake.style.top=parseInt(shake.style.top)-rector
+
+}
+
+else{
+
+shake.style.left=parseInt(shake.style.left)-rector
+
+}
+
+if (a<4)
+
+a++
+
+else
+
+a=1
+
+setTimeout("rattleimage()",50)
+
+}
+
+
+
+function stoprattle(which){
+
+stopit=1
+
+which.style.left=0
+
+which.style.top=0
+
+}
+
+
+
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<meta http-equiv="Content-Language" content="en-us">
+
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+
+<meta name="ProgId" content="FrontPage.Editor.Document">
+
+<title>Welcome to Eastern Maine Board of Approved Basketball Officials (111)
+
+Website!</title>
+
+
+</head>
+
+
+
+<body background="../images/bballbg.jpg" text="#643200" link="#FF0000" vlink="#643200" style="font-family: verdana">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TLWNXT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TLWNXT');</script>
+<!-- End Google Tag Manager -->
+
+
+<div align="center">
+
+  <center>
+
+  <table border="0" cellpadding="0" cellspacing="8" width="713" height="154">
+
+    <tr>
+
+      <td valign="top" width="21" height="25" align="center">
+
+        <p align="center"><a href="http://www.iaabo.org">
+
+        <img border="0" src="../images/logo.png" alt="International Association of Approved Basketball Officials, Inc." width="115" height="118"></a></td>
+
+      <td valign="bottom" width="612" height="25"><font face="verdana">
+
+        <p align="center" class="MsoNormal" style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">
+
+        <a name="top">
+
+        <img border="0" src="../images/iaabo111logo.gif" width="400" height="58"></a><b><O:P><span style="font-family: verdana"><font size="5">
+
+        </font></span></O:P>
+
+        </b></font></td>
+
+    </tr>
+
+    <tr>
+
+      <td valign="top" width="21" height="113" align="center">
+
+        <p align="center"><font size="3" face="verdana">
+
+        <a href="../meeting/fall-conference_agenda.htm">
+
+        <img border="0" src="../images/bballmeeting.gif"class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87"></a></font><p align="center">
+
+		<font size="3"><a target="_blank" href="../rules.pdf">
+
+		<img border="0" src="../images/bballrules.gif" class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87"></a></font><p align="center"><font size="3">
+
+        <a href="index.html">
+
+        <img border="0" src="../images/bballnews.gif"class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87" alt="User name &amp; password are the same."></a></font><p align="center"><font size="3">
+
+        <a href="../schools.htm">
+
+        <img border="0" src="../images/bballschools.gif"class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87"></a></font><p align="center"><font size="3">
+
+        <a href="../index.htm">
+
+        <img border="0" src="../images/bballhome.gif"class="shakeimage" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()" width="90" height="87"></a></font><p align="center">&nbsp;</td>
+
+      <td valign="top" width="612" height="113">
+
+        <table border="0" cellpadding="5" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber2">
+
+          <tr>
+
+            <td width="100%" bgcolor="#643200" align="center">
+
+            <h1 align="center"><font face="verdana" color="#FFFFFF">MINUTES<br>
+
+			EXECUTIVE COMMITTEE MEETING</font></h1>
+
+			</td>
+
+          </tr>
+
+          <tr>
+
+            <td width="100%" bgcolor="#FFFFFF" align="center">
+
+        <table border="0" cellpadding="0" cellspacing="0" width="90%">
+			<tr>
+				<td>
+				<h3 align="center"><span style="text-transform: uppercase">
+				<font face="verdana">December 14, 2014<br>
+				University of Maine/Bennett Hall</font></span></h3>
+				<p><i><font size="2">Absent: Chris Thornton &amp; Wayne Prescott</font></i></p>
+				<ol type="I">
+					<li>President Wadleigh called the meeting to order at 12:15 
+					pm<br>
+&nbsp;</li>
+					<li><b>Approval of minutes</b> from 10-19-14: A motion by N. 
+					Raymond and seconded by S. Kimball to approve the minutes as 
+					written. <br>
+					<b>Vote (U) Motion passed</b><br>
+&nbsp;</li>
+					<li><b>Presidential information</b><ol type="a">
+						<li>PVC/School rating: No School ratings next 
+						year(2015-2016) from schools in PVC </li>
+						<li>Mt. Jefferson: Currently they are not part of the 
+						assignment system</li>
+						<li>Specific member updates: Discussion and no action 
+						taken</li>
+						<li>Two assigner direction/List of 25/50…Vote to proceed 
+						or not: The BOD will explore alternative measures for 
+						assignments in the future. A sub-committee of S. Davis, 
+						R. Wadleigh, D. Ames, &amp; D. Mansfield will explore this 
+						issue and report at the Spring 2015 Business Meeting. A 
+						motion by E. Genest and seconded by G. Pierce. Vote (U) 
+						Motion passed. The BOD discussed the list of 25/50 
+						officials, but no action was taken</li>
+						<li>Roster sheets: Are available from Assigner, David 
+						Mansfield. An announcement was made at the clinic for 
+						officials to contact Assigner for a roster sheet of 
+						officials and athletic administrators.<br>
+&nbsp;</li>
+					</ol>
+					</li>
+					<li><b>Interpreter report</b> (to ensure he can be ready for 
+					the clinic)<ol type="a">
+						<li>Rating sheet direction/Vote: D. Ames recommended 
+						that fellow official’s ratings would be doubled to 30 
+						points. <br>
+						<b>No action taken. BOD will be evaluation changes to 
+						rating sheets</b></li>
+						<li>Level discussion/Vote: Discussion and no action 
+						taken</li>
+						<li>Acceptance of Board #20 manual exam or not: A motion 
+						was made by F. Berry and seconded by S. Kimball to have 
+						the two dual members take the Board #111 manual exam <br>
+						<b>Vote: 8 Yes 1 No Motion passed</b></li>
+						<li>Members who are in jeopardy of not being in good 
+						standing: The BOD reviewed the number of clinics each 
+						had attended and the interpreter and secretary will 
+						contact each member. <b>The BOD took no formal action.</b><br>
+&nbsp;</li>
+					</ol>
+					</li>
+					<li><b>Secretary report</b><ol type="a">
+						<li><b>Fall business meeting credit:</b> C. Thornton, J. 
+						Frye, C. Kein, A. Weatherbee, C. Wing, B. Patterson, G. 
+						Birmingham, &amp; D. Pelletier requested credit for the Fall 
+						2013 Business Meeting. A motion was made by F. Berry and 
+						seconded by B. Brooks to grant credit. <br>
+						<b>Vote: 8 Yes 1 No Motion passed</b></li>
+						<li><b>Members who are in jeopardy</b> of not being in 
+						good standing: Discussed under the Interpreter’s report</li>
+						<li><b>Preston Nickerson request</b>: A motion was made 
+						by N. Raymond and seconded by G. Pierce to deny the 
+						request. <b>Vote (U) Motion passed</b></li>
+						<li><b>&nbsp;Request by Nick Hildings</b>: <b>Tabled</b> 
+						until the Board Secretary can contact the Secretary of 
+						the Western ME Board</li>
+						<li>&nbsp;<b>Bill Patterson requested credit</b> for the 
+						clinic on December 14, 2014: <b>The board policy is not 
+						to grant credit for missed clinics</b></li>
+						<li><b>Noonan Tournament: </b>Encourage Board #111 
+						members to be involved through Arbiter, but the Board 
+						will not be responsibility for assignment of games. A 
+						motion was made by S. Kimball and seconded by N. Raymond
+						<br>
+						<b>Vote (U) Motion passed</b></li>
+						<li><b>Budget concerns: </b>The Fall Conference profits 
+						were $550.00 more than projected, but the budget will be 
+						very tight for January &amp; February</li>
+						<li><b>Blow the whistle on Cancer: </b>President 
+						Wadleigh will contact Coach Murray about coordination 
+						with the coaches association<br>
+&nbsp;</li>
+					</ol>
+					</li>
+					<li><b>Fall conference</b><ol type="a">
+						<li>Financial report: Expenses were $ 2,098.75 and 
+						Income was $ 7,150.00 for a profit of $5,051.25</li>
+						<li>Book 11-15-15 at Gracie: The date was agreed to by 
+						the BOD. Emil &amp; Nick were going to obtain cost figures 
+						related to having the Fall 2015 Conference at Hampden 
+						Academy</li>
+						<li>Positive and negative feedback: None<br>
+&nbsp;</li>
+					</ol>
+					</li>
+					<li><b>Policy work</b><ol type="a">
+						<li>Assignment guidelines: D. Ames had a couple of 
+						questions pertaining to the draft assignment guidelines. 
+						Committee member’s present made notes to be discussed at 
+						the next committee meeting.</li>
+						<li>Ethics: BOD has received copies, but not the 
+						membership</li>
+						<li>Fingerprinting plan/policy (Fred): N. Raymond will 
+						do a presentation at the Spring Business meeting. 
+						President Wadleigh has decided that the presentation 
+						will be at the clinic on January 11, 2015 due to the 
+						number of questions from officials about the procedures 
+						for fingerprinting.</li>
+						<li>Pre-season varsity games: Concerns about game fee 
+						and no travel. No action as this was a Council decision.<br>
+&nbsp;</li>
+					</ol>
+					</li>
+					<li><b>Mentoring update:</b> Sheridan updates the BOD on the 
+					program<br>
+					<br>
+					<br>
+&nbsp;</li>
+					<li><b>Assignment/Assignor items: Tabled</b><ol type="a">
+						<li>Turn back fees<br>
+						<br>
+						<br>
+&nbsp;</li>
+					</ol>
+					</li>
+					<li><b>New business:</b> None<br>
+					<br>
+&nbsp;</li>
+					<li><b>Adjourn @ 2:00 pm.</b> A motion by S. Kimball and 
+					seconded by S. Davis to adjourn the meeting. Vote (U) Motion 
+					passed</li>
+				</ol>
+				<p><br>
+				Respectfully submitted,<br>
+				<br>
+				John A. Doe<br>
+				Secretary Board #111</p>
+				<p>&nbsp;</td>
+			</tr>
+		</table>
+
+			</td>
+
+          </tr>
+
+          <tr>
+
+            <td width="100%" bgcolor="#643200" align="center">
+
+            <p align="center">
+
+            <font face="Verdana, verdana, Helvetica, sans-serif" color="#ff0000" size="1">
+
+            <b><font color="#FFFFFF"><a href="#Top"><font color="#FFFFFF">
+
+			<span style="text-decoration: none">Back to Top</span></font></a></font></b></font></td>
+
+          </tr>
+
+        </table>
+
+      </td>
+
+    </tr>
+
+  </table>
+
+  </center>
+
+</div>
+
+
+
+</body>
+
+
+
+</html>
