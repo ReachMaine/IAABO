@@ -1,0 +1,11 @@
+# redirect to www.
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 195.154.236.110
+deny from 195.154.240.246
