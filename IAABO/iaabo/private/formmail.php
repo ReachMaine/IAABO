@@ -189,7 +189,7 @@ if (!IsPHPAtLeast("5.3.0"))
         // disable this silly setting (usually not enabled)
         // it's also deprecated from PHP version 5.3.0
         //
-    set_magic_quotes_runtime(0);       
+    set_magic_quotes_runtime(0);
 
     //
     // seed the random number generate if not version 4.2.0 or later
@@ -257,13 +257,13 @@ else
 define("EMAIL_NAME","^[-a-z0-9.]+");    // the '^' is an important security feature!
 
             /* Help: http://www.tectite.com/fmdoc/target_email.php */
-$TARGET_EMAIL = array(EMAIL_NAME."@tidewater\.net$", EMAIL_NAME."@aol\.com$", EMAIL_NAME."@gmail\.com$");
+$TARGET_EMAIL = array(EMAIL_NAME."@tidewater\.net$", EMAIL_NAME."@aol\.com$", EMAIL_NAME."@gmail\.com$", EMAIL_NAME."@reachmaine\.com$");
 
             /* Help: http://www.tectite.com/fmdoc/def_alert.php */
 define("DEF_ALERT","support@ellsworthamerican.com");
 
             /* Help: http://www.tectite.com/fmdoc/site_domain.php */
-$SITE_DOMAIN = "http://iaabo111.org/";           // your website domain name
+$SITE_DOMAIN = "https://iaabo111.org/";           // your website domain name
 
             /* Help: http://www.tectite.com/fmdoc/set_real_document_root.php */
 $SET_REAL_DOCUMENT_ROOT = "";       // overrides the value set by SetRealDocumentRoot function
@@ -543,7 +543,7 @@ $ATTACK_DETECTION_JUNK_LANG_STRIP = array(
     "html",  /* HTML, XHTML */
     );
 $ATTACK_DETECTION_JUNK_IGNORE_FIELDS = array();
-        
+
 
             /* Help: http://www.tectite.com/fmdoc/attack_detection_dups.php */
 $ATTACK_DETECTION_DUPS = array("realname","address1","address2","country","zip",
@@ -2935,7 +2935,7 @@ if ($RECAPTCHA_PRIVATE_KEY !== "")
 
     /*
      * Class:       reCaptchaWrapper
-     * Description:     
+     * Description:
      *  Wraps processing of reCaptcha.
      */
     class   reCaptchaWrapper
@@ -2948,7 +2948,7 @@ if ($RECAPTCHA_PRIVATE_KEY !== "")
          * Method:      reCaptchaWrapper ctor
          * Parameters:  $s_priv     the private key
          * Returns:     n/a
-         * Description: 
+         * Description:
          *  Initializes the wrapper ready to process reCaptcha.
          */
         function    reCaptchaWrapper($s_priv)
@@ -2963,7 +2963,7 @@ if ($RECAPTCHA_PRIVATE_KEY !== "")
          *              $a_values   field values
          *              $s_error    returns the reCaptcha error code
          * Returns:     bool        true on success, otherwise false
-         * Description: 
+         * Description:
          *  Performs the reCaptcha check and caches the result so it's
          *  only done once.
          */
@@ -2985,9 +2985,9 @@ if ($RECAPTCHA_PRIVATE_KEY !== "")
     $reCaptchaProcessor = new reCaptchaWrapper($RECAPTCHA_PRIVATE_KEY);
 }
 
-/* 
+/*
  * Class:       EmailChecker
- * Description:     
+ * Description:
  *  Contains a list of valid email addresses and email address patterns.
  *  Provides methods for checking the validity of an email address.
  */
@@ -3000,7 +3000,7 @@ class   EmailChecker
      * Method:      EmailChecker ctor
      * Parameters:  $a_patterns     an array of email address patterns
      * Returns:     n/a
-     * Description: 
+     * Description:
      *  Constructs the object.
      */
     function    EmailChecker($a_patterns = array())
@@ -3013,7 +3013,7 @@ class   EmailChecker
      * Method:      EmailChecker::AddAddress
      * Parameters:  $s_addr     an email address
      * Returns:     void
-     * Description: 
+     * Description:
      *  Adds an email address to the list of valid email addresses.
      */
     function    AddAddress($s_addr)
@@ -3025,7 +3025,7 @@ class   EmailChecker
      * Method:      EmailChecker::AddAddresses
      * Parameters:  $s_list     a list ofemail addresses
      * Returns:     void
-     * Description: 
+     * Description:
      *  Adds a comma-separated list of email addresses to the list of valid email addresses.
      */
     function    AddAddresses($s_list)
@@ -3039,7 +3039,7 @@ class   EmailChecker
      * Method:      EmailChecker::CheckAddress
      * Parameters:  $s_email    an email address
      * Returns:     bool        true if the address is valid, otherwise false
-     * Description: 
+     * Description:
      *  Checks an email address for validity.
      */
     function    CheckAddress($s_email)
@@ -3073,7 +3073,7 @@ $ValidEmails = new EmailChecker($TARGET_EMAIL);
 
 /*
  * Class:       FieldManager
- * Description:     
+ * Description:
  *  Encapsulates storage and lookup of field data.
  *  NOTE: this is initial code implemented in version 8.27 and is not complete.
  *  It's part of our transition to a more complete Object Oriented code base
@@ -3092,7 +3092,7 @@ class   FieldManager
      * Parameters:  $a_fields       list of fields
      *              $a_file_fields  list of file fields
      * Returns:     n/a
-     * Description: 
+     * Description:
      *  Constructs the object.
      */
     function    FieldManager($a_fields = array(),$a_file_fields = array())
@@ -3108,7 +3108,7 @@ class   FieldManager
      * Parameters:  $a_fields       list of fields
      *              $a_file_fields  list of file fields
      * Returns:     void
-     * Description: 
+     * Description:
      *  Initializes the object with the field data.
      */
     function    Init($a_fields,$a_file_fields)
@@ -3122,7 +3122,7 @@ class   FieldManager
      * Parameters:  $s_fld          name of the field
      *              $s_array_sep    string to use to separate array values
      * Returns:     string          the field's value
-     * Description: 
+     * Description:
      *      Return a field value.  Empty string is returned if the field is
      *      not found. File fields return the original name of the uploaded file.
      */
@@ -3147,7 +3147,7 @@ class   FieldManager
      *              $b_text_subs    perform text substitutions
      *              $s_array_sep    string to use to separate array values
      * Returns:     string          the field's value
-     * Description: 
+     * Description:
      *      Return a field value.  Empty string is returned if the field is
      *      not found. File fields return the original name of the uploaded file.
      *      The returned value is HTML-safe.
@@ -3268,7 +3268,7 @@ class   FieldManager
 
     /*
      * Method:      FieldManager::_HTMLSafeSubstitute
-     * Parameters:  $s_value    the string to substitute 
+     * Parameters:  $s_value    the string to substitute
      *              $a_matches  list of matches and offsets from preg_match_all
      *              $a_match_data   contains some data, and returns replacement data
      *                          for the temporary substitution
@@ -3321,7 +3321,7 @@ class   FieldManager
      * Method:      FieldManager::IsFieldSet
      * Parameters:  $s_fld      name of the field
      * Returns:     bool        true if the field has a value
-     * Description: 
+     * Description:
      *  Test if a field is set in the $_aFields array or in the uploaded
      *  files.
      */
@@ -3350,7 +3350,7 @@ class   FieldManager
      * Parameters:  $s_fld      name of the field
      *              $s_mesg     returns an error message, where possible
      * Returns:     bool        true if the field is empty
-     * Description: 
+     * Description:
      *  Tests a field against the $_aFields array for emptyness.
      *  If the var isn't found there, then the POSTed files array is checked.
      *  Returns true if the field is empty (a specific error may
@@ -3447,7 +3447,7 @@ class   FieldManager
      * Method:      FieldManager::IsEmpty
      * Parameters:  $s_value    the value to test
      * Returns:     bool        true if the value is "empty"
-     * Description: 
+     * Description:
      *  Same as "empty" but checks for true emptiness if ZERO_IS_EMPTY is
      *  set to false.
      */
@@ -3463,7 +3463,7 @@ class   FieldManager
      * Method:      FieldManager::Substitute
      * Parameters:  $s_str      a string on which to perform substitutions
      * Returns:     string      the string, substituted
-     * Description: 
+     * Description:
      *  Makes substitutions on strings as specified in the configuration setting
      *  $TEXT_SUBS.
      */
@@ -3486,10 +3486,10 @@ class   FieldManager
     }
 
     /*
-     * Method:      FieldManager::_GetArraySep 
+     * Method:      FieldManager::_GetArraySep
      * Parameters:  $s_sep      the string specified for array separations
      * Returns:     string      the string to use for array separations
-     * Description: 
+     * Description:
      *  Computes the array separation string.  $s_sep is subject to
      *  subsititions specified in $TEXT_SUBS, and then returned.
      */
@@ -3558,7 +3558,7 @@ function    LineFolding($s_str,$i_max_line,$s_before,$s_after,$s_fold)
                 }
             }
                 //
-                // if we cannot fold and shorten the line, 
+                // if we cannot fold and shorten the line,
                 // ignore this and try for the next line
                 //
             if ($b_done)
@@ -4560,7 +4560,7 @@ function IsFieldSet($s_fld,$a_main_vars)
  * Function:    IsFileField
  * Parameters:  $s_fld  the field name
  * Returns:     bool    true if this is a file upload field
- * Description:     
+ * Description:
  *  Checks if a field is a file upload field (regardless of whether
  *  file uploads are being allowed, or whether the actual upload
  *  is valid in any way).
@@ -4568,7 +4568,7 @@ function IsFieldSet($s_fld,$a_main_vars)
 function    IsFileField($s_fld)
 {
     global  $aFileVars;
-    
+
     return (isset($aFileVars[$s_fld]));
 }
 
@@ -5433,7 +5433,7 @@ class   JSON
             $s_value = "null";
         return ($s_value);
     }
-    
+
     function _FormatArray($a_array)
     {
         if ($this->_IsNumericArray($a_array))
@@ -5452,7 +5452,7 @@ class   JSON
         }
         return ($s_value);
     }
-    
+
     //
     // check if we have a numeric array or an associative array
     // numeric arrays may have holes; numeric array indexes must
@@ -5471,7 +5471,7 @@ class   JSON
                 return (false);
         return (true);
     }
-    
+
     function    MakeObject($a_data)
     {
         $a_members = array();
@@ -5492,7 +5492,7 @@ function    CORS_Response()
 function    JSON_Result($s_result,$a_data = array())
 {
     global  $aGetVars;
-    
+
     FMDebug("Sending JSON_Result: $s_result");
     $a_data["Result"] = $s_result;
     $json = new JSON();
@@ -5998,7 +5998,7 @@ function SendAlert($s_error,$b_filter = true,$b_non_error = false)
             else
                 $s_mesg .= GetMessage(MSG_USERDATA_STOPPED);
         }
-            
+
             /*
              * We only need to filter the form fields if the filter that
              * is specified is an encrypting filter.
@@ -6268,7 +6268,7 @@ function    FMDebug($s_mesg)
 
 /*
  * Class:       NetIO
- * Description:     
+ * Description:
  *  A class to provide internet input/output capabilities.
  *  Use as a base class for more specific functions.
  */
@@ -6522,7 +6522,7 @@ class   NetIO
 
 /*
  * Class:       HTTPGet
- * Description:     
+ * Description:
  *  A class that implements HTTP GET method.
  */
 class   HTTPGet extends NetIO
@@ -8604,7 +8604,7 @@ function Filter($filter,$m_data)
  * Function:    FilterFiles
  * Parameters:  $a_files    list of file uploads to filter
  * Returns:     void
- * Description:     
+ * Description:
  *  Run the given files through any filter for which they are specified.
  */
 function    FilterFiles(&$a_files)
@@ -8676,14 +8676,14 @@ function    FilterFiles(&$a_files)
     }
 }
 
-/* 
+/*
  * Function:    ReadInFile
  * Parameters:  $s_file_name    the name of the file
  *              $s_file_error_type type of file for any error message
  *              $b_text         if true, read file as text
  * Returns:     mixed           the entire contents of the file
  *                              as a string, or false on error
- * Description:     
+ * Description:
  *  Reads the contents of a file into a string.
  */
 function    ReadInFile($s_file_name,$s_file_error_type,$b_text = false)
@@ -8704,14 +8704,14 @@ function    ReadInFile($s_file_name,$s_file_error_type,$b_text = false)
     return ($s_data);
 }
 
-/* 
+/*
  * Function:    WriteOutFile
  * Parameters:  $s_file_name    the name of the file
  *              $s_data         the data to write
  *              $s_file_error_type type of file for any error message
  *              $b_text         if true, read file as text
  * Returns:     bool            true on success, otherwise false
- * Description:     
+ * Description:
  *  Writes the contents of a file from a string.
  */
 function    WriteOutFile($s_file_name,$s_data,$s_file_error_type,$b_text = false)
@@ -8736,7 +8736,7 @@ function    WriteOutFile($s_file_name,$s_data,$s_file_error_type,$b_text = false
 
 /*
  * Class:       CSVFormat
- * Description:     
+ * Description:
  *  Manages formatting of CSV content.
  */
 class   CSVFormat
@@ -8755,7 +8755,7 @@ class   CSVFormat
      *              $s_esc_policy   escape processing policy to use
      *              $s_clean_func   a cleaning function
      * Returns:     n/a
-     * Description: 
+     * Description:
      *  Constructs the object.
      */
     function    CSVFormat($c_sep = ',',$c_quote = '"',$c_int_sep = ';',
@@ -8773,7 +8773,7 @@ class   CSVFormat
      * Parameters:  $s_esc_policy   a string specifying the escape processing
      *                              policy to use
      * Returns:     void
-     * Description: 
+     * Description:
      *  Set the escape processing policy.
      */
     function    SetEscPolicy($s_esc_policy)
@@ -8800,7 +8800,7 @@ class   CSVFormat
      * Method:      SetSep
      * Parameters:  $c_sep      the separator character to use
      * Returns:     void
-     * Description: 
+     * Description:
      *  Set the separator character for between fields.
      */
     function    SetSep($c_sep)
@@ -8812,7 +8812,7 @@ class   CSVFormat
      * Method:      SetQuote
      * Parameters:  $c_quote      the quote character to use
      * Returns:     void
-     * Description: 
+     * Description:
      *  Set the quote character for quoting fields.
      */
     function    SetQuote($c_quote)
@@ -8824,7 +8824,7 @@ class   CSVFormat
      * Method:      SetIntSep
      * Parameters:  $c_int_sep      the internal separator character to use
      * Returns:     void
-     * Description: 
+     * Description:
      *  Set the internal separator character for inside fields.
      */
     function    SetIntSep($c_int_sep)
@@ -8836,7 +8836,7 @@ class   CSVFormat
      * Method:      SetCleanFunc
      * Parameters:  $s_clean_func   the name of a cleaning function (can be NULL)
      * Returns:     void
-     * Description: 
+     * Description:
      *  Set the cleaning function for fields.
      */
     function    SetCleanFunc($s_clean_func)
@@ -8846,10 +8846,10 @@ class   CSVFormat
 
     /*
      * Method:      _Escape
-     * Parameters:  $m_value    the field value; string or array of strings 
+     * Parameters:  $m_value    the field value; string or array of strings
      * Returns:     mixed       the field value escaped according to the
      *                          escape processing policy
-     * Description: 
+     * Description:
      *  Escapes a field value according to the configured requirements.
      */
     function    _Escape($m_value)
@@ -8921,7 +8921,7 @@ class   CSVFormat
      *                              s   force to be a string
      *                              r   remove carriage returns
      * Returns:     string      the formatted value
-     * Description: 
+     * Description:
      *  Formats a value.
      */
     function    _Format($s_value,$s_format = "")
@@ -8972,7 +8972,7 @@ class   CSVFormat
      * Parameters:  $s_col_spec a column specification
      * Returns:     array       the column name and the format specifier, if
      *                          any
-     * Description: 
+     * Description:
      *  Returns the column name and any format specifier.
      */
     function    _GetColumn($s_col_spec)
@@ -8996,8 +8996,8 @@ class   CSVFormat
      *                              (field name).
      *                              A data value can be a string or an array
      *                              of strings.
-     * Returns:     string          the comma-separated value    
-     * Description: 
+     * Returns:     string          the comma-separated value
+     * Description:
      *  Creates a single CSV record for a list of columns.
      */
     function    MakeCSVRecord($a_column_list,$a_vars)
@@ -9033,8 +9033,8 @@ class   CSVFormat
      * Method:      MakeHeading
      * Parameters:  $a_column_list  a list of column names (field names) to
      *                              include
-     * Returns:     string          the comma-separated heading record    
-     * Description: 
+     * Returns:     string          the comma-separated heading record
+     * Description:
      *  Creates a heading record for the CSV data.
      */
     function    MakeHeading($a_column_list)
@@ -10993,15 +10993,15 @@ function GetFilterList($b_file_fields)
     return (false);
 }
 
-/* 
+/*
  * Function:    GetFilterSpec
  * Parameters:  $s_filter       returns the filter name
  *              $m_filter_list  returns the list of fields to filter (an array)
  *                              or is set to false if there is no filter list
  *              $b_file_fields  if true, return file fields, otherwise return non-file fields
  * Returns:     bool            true if filtering a list of fields of the specified type
- * Description:     
- *  Checks whether the form has specified to filter a list of 
+ * Description:
+ *  Checks whether the form has specified to filter a list of
  *  fields of the specified type (file fields or non-file fields).
  */
 function    GetFilterSpec(&$s_filter,&$m_filter_list,$b_file_fields = false)
@@ -11120,7 +11120,7 @@ function SendResults($a_fld_order,$a_clean_fields,$s_to,$s_cc,$s_bcc,$a_raw_fiel
     elseif ($s_sender !== "")
         $s_sender = $a_headers['From'] = SafeHeader(UnMangle($s_sender));
 
-        /* 
+        /*
          * Override sender if $FIXED_SENDER is set.
          */
     if ($FIXED_SENDER !== "")
@@ -11348,7 +11348,7 @@ function WriteCSVFile($s_csv_file,$a_vars)
         $b_heading = true;
 
     $csv_format = new CSVFormat();
-        
+
         //
         // now configure the CSVFormat object
         // according to FormMail's configuration settings
@@ -11726,7 +11726,7 @@ function MultiFormReturn($i_return_to)
     }
     else
             //
-            // we probably should include 
+            // we probably should include
             //  $SessionAccessor->CopyIn(...,true);
             // at some stage in the future to get the session values....need to think about this
             // and run some case studies.
@@ -12396,7 +12396,7 @@ function    CheckCaptchaSubmit()
 
 /*
  * Class:       AutoResponder
- * Description:     
+ * Description:
  *  Implements the auto responding feature of FormMail.
  *  The object must only be created after special fields have been
  *  processed.
@@ -12429,8 +12429,8 @@ class   AutoResponder
     /*
      * Method:      AutoResponder ctor
      * Parameters:  void
-     * Returns:     n/a 
-     * Description: 
+     * Returns:     n/a
+     * Description:
      *  Constructs the object.
      */
     function    AutoResponder()
@@ -12498,8 +12498,8 @@ class   AutoResponder
      * Method:      AutoResponder::IsRequested
      * Parameters:  void
      * Returns:     bool    true if autoresponding has been requested
-     * Description: 
-     *  Determines if autoresponding has been requested by the HTML.  
+     * Description:
+     *  Determines if autoresponding has been requested by the HTML.
      */
     function    IsRequested()
     {
@@ -12510,7 +12510,7 @@ class   AutoResponder
      * Method:      AutoResponder::Process
      * Parameters:  $b_check_only   if true, perform checks but do not send
      * Returns:     void
-     * Description: 
+     * Description:
      *  Processes the autorespond.
      */
     function    Process($b_check_only = false)
@@ -12550,8 +12550,8 @@ class   AutoResponder
     /*
      * Method:      AutoResponder::_CheckCaptcha
      * Parameters:  void
-     * Returns:     void 
-     * Description: 
+     * Returns:     void
+     * Description:
      *  Checks the type of CAPTCHA that has been processed.
      *  This method should only be called if autoresponse has been requested
      *  by the form (i.e. IsRequested returns true).
@@ -12651,7 +12651,7 @@ class   AutoResponder
      * Method:      AutoResponder::_Send
      * Parameters:  $b_use_template  if true, allow template, otherwise file
      * Returns:     void
-     * Description: 
+     * Description:
      *  Sends an autoreponse using a template.
      */
     function    _Send($b_use_template)
@@ -12698,7 +12698,7 @@ class   AutoResponder
      *              $a_values   field values to access
      *              $b_use_template if true, use a template, otherwise plain file
      * Returns:     bool        true on success, otherwise false
-     * Description: 
+     * Description:
      *  Sends an autoresponse email to the user.
      */
     function _SendEmail($s_to,$s_subj,$a_values,$b_use_template)
@@ -12802,9 +12802,9 @@ class   AutoResponder
     }
 }
 
-/* 
+/*
  * Class:       SessionAccess
- * Description:     
+ * Description:
  *  Implements access to the general PHP session.
  *  This provides a secure way of copy data to and from the
  *  user's PHP session.
@@ -12817,7 +12817,7 @@ class   SessionAccess
      * Method:      SessionAccess ctor
      * Parameters:  $a_access_list      list of variables that can be accessed
      * Returns:     n/a
-     * Description: 
+     * Description:
      *  Constructs the object.
      */
     function    SessionAccess($a_access_list)
@@ -12831,7 +12831,7 @@ class   SessionAccess
      *              $b_overwrite_empty  if true, the session value will overwrite
      *                          an empty array variable
      * Returns:     int         number of values copied
-     * Description: 
+     * Description:
      *  Copies in the list of variables from the session to the given array.
      */
     function    CopyIn(&$a_vars,$b_overwrite_empty)
@@ -12857,7 +12857,7 @@ class   SessionAccess
      * Parameters:  $a_vars     reference to an array of values (keyed on name)
      *              $a_fields   an array of fields to copy
      * Returns:     int         number of values copied
-     * Description: 
+     * Description:
      *  Copies the variables from the given array into the session.
      *  The list of fields to copy is specified in _aAccessList.
      *  If $a_fields is provided, it contains a list of fields to copy, which
@@ -13434,12 +13434,12 @@ if (!empty($SPECIAL_VALUES["fmcompute"]))
         }
     }
 
-    /* 
+    /*
      * Function:    MergeFileArrays
      * Parameters:  $a_new_files    the list of files just submitted by the form
      *              $a_saved_files  the list of files that have been previously saved (can be NULL)
      * Returns:     array           a merged array
-     * Description:     
+     * Description:
      *  Intelligently merges two arrays of file definitions.
      *  If a file has been newly uploaded, its definition takes precedence.
      */
