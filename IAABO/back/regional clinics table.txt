@@ -1,0 +1,47 @@
+	<table border="5" cellpadding="5" cellspacing="0" width="100%" bordercolor="#D02A27" id="table15z" style="border-collapse: collapse; margin-bottom: 20px;" bordercolorlight="#D02A27" bordercolordark="#D02A27">
+												<tr>
+													<td bgcolor="#D02A27" align="center">
+													<span style="text-transform: uppercase">
+													<b><font face="Verdana" color="#FFFFFF">
+													Regional Clinics and Meeting</font></b></span></td>
+												</tr>
+												<tr>
+													<td bgcolor="#FFFFFF">
+														<h4 style="font-family: Verdana; text-align:center; margin-bottom: 0px;"><b>Bangor area</b></h4>
+														<p style="text-align:center;margin-top: 4px; margin-bottom: 6px;font-size: 1em;">All clinics at Hampden Academy</p>
+														<ul style="margin: 0px; padding-left: 16px;">
+															<!--li style="padding-bottom: 6px;"><b>Regional Clinic</b>- Sunday Nov. 3, 6 pm (Patriots are on that night at 8:15)</li-->
+															<li><b>Mechanics Clinic</b> (not for extra credit)- Sunday Nov. 10, 6:30 pm.</li>
+														</ul>
+														<hr style="width: 20%;">
+														<h4 style="font-family: Verdana; text-align:center; margin-bottom: 0px;"><b>Orono/Old Town area</b></h4>
+														<p style="text-align:center;margin-top: 4px; margin-bottom: 6px;font-size: 1em;">All clinics at Old Town Governors Restaurant</p>
+														<ul style="margin: 0px; padding-left: 16px;">
+															<li style="padding-bottom: 6px;"><b>Regional Clinic</b>- Tuesday Nov. 5, 6 pm</li>
+														</ul>
+														<hr style="width: 20%;">
+														<h4 style="font-family: Verdana; text-align:center; margin-bottom: 0px; margin-top: 10px;"><b>East Millinocket area</b></h4>
+														<p style="text-align:center;margin-top: 4px; margin-bottom: 6px;font-size: 1em;">All clinics at Schenck High School</p>
+														<ul style="margin: 0px; padding-left: 16px;">
+															<li style=""><b>Regional Clinic</b>- Wednesday Oct. 23, 6 pm</li>
+														</ul>
+														<hr style="width: 20%;">
+														<h4 style="font-family: Verdana; text-align:center; margin-bottom: 0px; margin-top: 10px;"><b>Newport area</b></h4>
+														<p style="text-align:center;margin-top: 4px; margin-bottom: 6px;font-size: 1em;">All clinics at Wayne Prescott's home <br>285 Moody's Mills Rd, Corinna</p>
+														<ul style="margin: 0px; padding-left: 16px;">
+															<li style=""><b>Regional Clinic</b>- Thursday Nov. 7, 6 pm</li>
+														</ul>
+														<hr style="width: 20%;">
+														<h4 style="font-family: Verdana; text-align:center; margin-bottom: 0px; margin-top: 10px;"><b>Knox/Waldo County area </b></h4>
+														<p style="text-align:center;margin-top: 4px; margin-bottom: 6px;font-size: 1em;">All clinics at Dave Ames home,<br> 22 Atlantic Highway, Northport</p>
+														<ul style="margin: 0px; padding-left: 16px;">
+															<li style=""><b>Regional Clinic</b>- Tuesday Oct. 29, 6:30 pm</li>
+														</ul>
+														<hr style="width: 20%;">
+														<h4 style="font-family: Verdana; text-align:center; margin-bottom: 0px; margin-top: 10px;"><b>Hancock Couty area </b></h4>
+														<p style="text-align:center;margin-top: 4px; margin-bottom: 6px; font-size: 1em;">All clinics at Lamoine Town Hall</p>
+														<ul style="margin-top: 0px; padding-left: 16px;">
+															<li style=""><b>Regional Clinic</b>-  Sunday Nov. 3, 6 pm</li>
+														</ul>
+												</tr>
+											</table>
